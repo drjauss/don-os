@@ -1,0 +1,23 @@
+@import "./fonts/fonts.scss";
+
+.title {
+  font-family: $yeseva-regular;
+}
+
+.subtitle {
+  font-family: $poppins-semibold;
+
+  i,
+  .italic {
+    font-family: $poppins-semibold-italic;
+  }
+}
+
+.content {
+  font-family: $poppins-regular;
+
+  i,
+  .italic {
+    font-family: $poppins-regular-italic;
+  }
+}

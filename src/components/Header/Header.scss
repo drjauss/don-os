@@ -1,0 +1,50 @@
+@import "../../variables";
+
+.Header {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 10%;
+
+    div {
+      display: flex;
+
+      &:first-child {
+        justify-content: center;
+        align-items: center;
+      }
+
+      &:last-child {
+        flex: 1;
+        justify-content: flex-end;
+
+        ul {
+          display: flex;
+          justify-self: flex-end;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            padding: 31px;
+            font-size: 14px;
+
+            a {
+              text-decoration: none;
+              color: $black;
+              font-family: $open-sans-bold;
+              padding-bottom: 2px;
+              transition: box-shadow 300ms ease-in-out;
+
+              &:hover {
+                box-shadow: 0 2px 0px -1px $black;
+                transition: box-shadow 300ms ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
