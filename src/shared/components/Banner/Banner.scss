@@ -1,0 +1,17 @@
+.Banner {
+  background-image: url("../../../images/Banner_Home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  top: -81px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 7em;
+    color: white;
+  }
+}

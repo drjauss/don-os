@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as Logo } from "../../images/don-os-vuelve-a-lila.svg";
 import "./Header.scss";
 
 function Header() {
@@ -7,7 +6,7 @@ function Header() {
     <div className="Header">
       <nav>
         <div>
-          <Logo />
+          <h2 className="title">Don Os vuelve a Lilac</h2>
         </div>
         <div>
           <ul>
