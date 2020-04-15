@@ -1,5 +1,24 @@
 @import "./fonts/fonts.scss";
 
+h1 {
+  font-size: 3em;
+
+  &.with-subject {
+    margin-top: 0;
+  }
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0;
+}
+
+span.subject {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
 .title {
   font-family: $yeseva;
   font-weight: 400;
@@ -16,6 +35,11 @@
   }
 }
 
+.subject {
+  font-family: $poppins;
+  font-weight: 600;
+}
+
 .content {
   font-family: $poppins;
   font-weight: 400;
@@ -25,5 +49,28 @@
     font-family: $poppins;
     font-weight: 400;
     font-style: italic;
+  }
+}
+
+.justified {
+  text-align: justify;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.section-padding {
+  padding: 8% 10%;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+
+  &.link-btn {
+    font-family: $poppins;
+    font-weight: 600;
   }
 }
