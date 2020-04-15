@@ -2,7 +2,7 @@
 
 $black: #1f2532;
 $orange: #fc643f;
-$light-blue: #c0ebf3;
+$light-blue: #8ab9dd;
 $green: #06c48c;
 $yellow: #ffd05d;
 $pink: #ff657d;
@@ -12,16 +12,32 @@ $magenta: #cb1d5b;
   color: $black;
 }
 
+.black-bg {
+  background-color: $black;
+}
+
 .orange {
   color: $orange;
+}
+
+.orange-bg {
+  background-color: $orange;
 }
 
 .light-blue {
   color: $light-blue;
 }
 
+.light-blue-bg {
+  background-color: $light-blue;
+}
+
 .green {
   color: $green;
+}
+
+.green-bg {
+  background-color: $green;
 }
 
 .yellow {
@@ -32,10 +48,22 @@ $magenta: #cb1d5b;
   }
 }
 
+.yellow-bg {
+  background-color: $yellow;
+}
+
 .pink {
   color: $pink;
 }
 
+.pink-bg {
+  background-color: $pink;
+}
+
 .magenta {
   color: $magenta;
+}
+
+.magenta-bg {
+  background-color: $magenta;
 }

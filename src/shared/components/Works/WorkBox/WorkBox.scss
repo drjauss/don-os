@@ -1,0 +1,27 @@
+@import "../../../../variables";
+
+.WorkBox {
+  .box {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span.subject {
+      color: white;
+      font-size: 1em;
+    }
+
+    h1.title.with-subject {
+      color: white;
+      cursor: pointer;
+      margin-bottom: 0;
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
