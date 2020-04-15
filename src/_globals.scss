@@ -8,10 +8,18 @@ h1 {
   }
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 p {
   font-size: 1em;
   line-height: 1.5em;
   letter-spacing: 0;
+
+  &.small {
+    font-size: 0.8em;
+  }
 }
 
 button {
@@ -69,6 +77,14 @@ span.subject {
 
 .center {
   text-align: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.s1em {
+  font-size: 1em;
 }
 
 .underlined {

@@ -6,6 +6,7 @@ import Information from "../../../shared/components/Information";
 import Works from "../../../shared/components/Works";
 import Quote from "../../../shared/components/Quote";
 import Subscription from "../../../shared/components/Subscription";
+import Footer from "../../Footer/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Works />
       <Quote />
       <Subscription />
+      <Footer />
     </div>
   );
 }
