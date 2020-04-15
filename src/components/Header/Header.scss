@@ -5,16 +5,16 @@
 
   nav {
     display: flex;
+    padding: 0 10%;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 0 10%;
 
     div {
       display: flex;
 
       &:first-child {
-        justify-content: center;
         align-items: center;
+        justify-content: center;
       }
 
       &:last-child {
@@ -22,21 +22,23 @@
         justify-content: flex-end;
 
         ul {
+          margin: 0;
+          padding: 0;
           display: flex;
           justify-self: flex-end;
           list-style-type: none;
-          margin: 0;
-          padding: 0;
 
           li {
             padding: 31px;
             font-size: 14px;
 
             a {
-              text-decoration: none;
               color: $black;
-              font-family: $open-sans-bold;
+              cursor: pointer;
+              font-weight: 700;
               padding-bottom: 2px;
+              text-decoration: none;
+              font-family: $open-sans;
               transition: box-shadow 300ms ease-in-out;
 
               &:hover {

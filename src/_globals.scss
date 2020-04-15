@@ -1,23 +1,29 @@
 @import "./fonts/fonts.scss";
 
 .title {
-  font-family: $yeseva-regular;
+  font-family: $yeseva;
+  font-weight: 400;
 }
 
 .subtitle {
-  font-family: $poppins-semibold;
+  font-family: $poppins;
+  font-weight: 600;
 
   i,
   .italic {
-    font-family: $poppins-semibold-italic;
+    font-family: $poppins;
+    font-style: italic;
   }
 }
 
 .content {
-  font-family: $poppins-regular;
+  font-family: $poppins;
+  font-weight: 400;
 
   i,
   .italic {
-    font-family: $poppins-regular-italic;
+    font-family: $poppins;
+    font-weight: 400;
+    font-style: italic;
   }
 }
