@@ -9,3 +9,4 @@ Frameworks y dependencias
 - Webpack
 - SASS
 - TypeScript
+- Font Awesome
