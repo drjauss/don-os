@@ -23,19 +23,22 @@ function Footer() {
           <div>
             <span className="subject white">Categorías</span>
             <ul>
-              <li className="content white">Biografía</li>
-              <li className="content white">Obra</li>
-              <li className="content white">Contacto</li>
-              <li className="content white">Acerca de</li>
+              <li className="content small-size white">Biografía</li>
+              <li className="content small-size white">Obra</li>
+              <li className="content small-size white">Contacto</li>
+              <li className="content small-size white">Acerca de</li>
             </ul>
           </div>
         </div>
         <div className="pure-u-1-4">
           <span className="subject white">Síguenos</span>
-          <p>
-            <span className="facebook-icon">Facebook</span>
-            <br />
-            <span className="instagram-icon">Instagram</span>
+          <p className="icon-items">
+            <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank">
+              <i className="fa fa-facebook white"></i>
+            </a>
+            <a href="https://www.instagram.com/donoswaldodiazdiaz/" target="_blank">
+              <i className="fa fa-instagram white"></i>
+            </a>
           </p>
         </div>
         <div className="pure-u-1-4">
