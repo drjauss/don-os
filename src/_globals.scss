@@ -31,6 +31,10 @@ p {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .small-size {
   font-size: 0.8em;
 }
@@ -106,6 +110,14 @@ span.subject {
 
 .no-margin {
   margin: 0;
+}
+
+.empty-space {
+  height: 3em;
+}
+
+.inner-gap > * {
+  margin-bottom: 10%;
 }
 
 .image-box {

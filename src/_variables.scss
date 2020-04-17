@@ -53,11 +53,16 @@ $pale-green: #648f85;
   background-color: $green;
 }
 
-.yellow {
+.yellow,
+a.yellow-link {
   color: $yellow;
 
   &.bottom-shadow {
     box-shadow: 0 4px 0 -2px $yellow;
+  }
+
+  .no-decoration {
+    text-decoration: none;
   }
 }
 
