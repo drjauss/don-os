@@ -19,6 +19,10 @@ $pale-green: #648f85;
 
 .black {
   color: $black;
+
+  &.bottom-shadow {
+    box-shadow: 0 4px 0 -2px $black;
+  }
 }
 
 .black-bg {

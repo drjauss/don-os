@@ -1,8 +1,7 @@
 @import "../../../variables";
 
 .Information {
-  .image-box {
-    max-width: 100%;
+  .inversed {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }

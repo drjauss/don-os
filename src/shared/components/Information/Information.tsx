@@ -7,7 +7,7 @@ function Information() {
     <div className="Information">
       <div className="pure-g section-padding">
         <div className="pure-u-1-2">
-          <img className="image-box" src={donOsImage} alt="Ilustración Don Os" />
+          <img className="image-box inversed" src={donOsImage} alt="Ilustración Don Os" />
         </div>
         <div className="pure-u-1-2">
           <span className="subject">Biografía</span>
