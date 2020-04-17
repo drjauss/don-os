@@ -2,15 +2,13 @@ import React from "react";
 import "./Carousel.scss";
 import BannerImg from "./BannerImg";
 import ContentColumns from "./ContentColumns";
+import SectionTitle from "../SectionTitle";
 
 function Carousel() {
   return (
     <div className="Carousel">
       <div className="section-padding center">
-        <div>
-          <span className="subject">Biografía</span>
-          <h1 className="title with-subject no-margin">Oswaldo Díaz Díaz</h1>
-        </div>
+        <SectionTitle title="Oswaldo Díaz Díaz" subtitle="Biografía" />
         <div className="section-margin">
           <BannerImg />
         </div>
