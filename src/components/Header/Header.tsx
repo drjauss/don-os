@@ -1,7 +1,11 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.scss";
+import { NavigationRoutesEnum } from "./definitions/enums/section-routes.enum";
 
 function Header() {
+  let location = useLocation();
+
   return (
     <div className="Header">
       <nav>
@@ -10,20 +14,20 @@ function Header() {
         </div>
         <div>
           <ul>
-            <li>
-              <a>Inicio</a>
+            <li className={location.pathname === NavigationRoutesEnum.HOME ? "active" : ""}>
+              <Link to="/">Inicio</Link>
             </li>
-            <li>
-              <a>Biografía</a>
+            <li className={location.pathname === NavigationRoutesEnum.BIOGRAPHY ? "active" : ""}>
+              <Link to="/biografia">Biografía</Link>
             </li>
-            <li>
-              <a>Obra</a>
+            <li className={location.pathname === NavigationRoutesEnum.WORK ? "active" : ""}>
+              <Link to="/obra">Obra</Link>
             </li>
-            <li>
-              <a>Contacto</a>
+            <li className={location.pathname === NavigationRoutesEnum.CONTACT ? "active" : ""}>
+              <Link to="/contacto">Contacto</Link>
             </li>
-            <li>
-              <a>Acerca de</a>
+            <li className={location.pathname === NavigationRoutesEnum.ABOUT ? "active" : ""}>
+              <Link to="/acerca-de">Acerca de</Link>
             </li>
           </ul>
         </div>

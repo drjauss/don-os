@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Information.scss";
 import donOsImage from "../../../images/Don_Os_Home_Bio.png";
 
@@ -21,7 +22,9 @@ function Information() {
             Don Os creó para los niños El país de Lilac, un lugar imaginario donde los niños pueden ser libres.
             ¡Bienvenido!
           </p>
-          <button className="link-btn yellow bottom-shadow">Conoce su vida</button>
+          <button className="link-btn yellow bottom-shadow">
+            <Link to="/biografia">Conoce su vida</Link>
+          </button>
         </div>
       </div>
     </div>

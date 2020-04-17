@@ -52,9 +52,7 @@ function Footer() {
           </div>
         </div>
         <div className="pure-u-1-1 center">
-          <p>
-            <hr />
-          </p>
+          <hr />
           <p className="content small white">Ⓒ Ministerio de Cultura - Biblioteca Nacional de Colombia, 2020</p>
         </div>
       </div>

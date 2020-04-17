@@ -47,6 +47,10 @@ button {
   &.link-btn {
     font-family: $poppins;
     font-weight: 600;
+
+    a {
+      color: inherit;
+    }
   }
 }
 
