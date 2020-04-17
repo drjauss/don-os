@@ -11,7 +11,7 @@ function Information() {
         </div>
         <div className="pure-u-1-2">
           <span className="subject">Biografía</span>
-          <h1 className="title with-subject">Oswaldo Diaz Diaz</h1>
+          <h1 className="title with-subject">Oswaldo Díaz Díaz</h1>
           <p className="content">
             Oswaldo Díaz Díaz, Dos Os, fue un autor prolífico del siglo XX, además de profesor, historiador y abogado.
             Escribió cuentos, teatro, radioteatro y textos de no ficción, por lo que dejó un legado muy importante para
