@@ -10,7 +10,9 @@ function Header() {
     <div className="Header">
       <nav>
         <div>
-          <h2 className="title">Don Os vuelve a Lilac</h2>
+          <Link to="/">
+            <h2 className="title">Don Os vuelve a Lilac</h2>
+          </Link>
         </div>
         <div>
           <ul>

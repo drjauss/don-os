@@ -7,6 +7,7 @@ import Works from "../../../shared/components/Works";
 import Quote from "../../../shared/components/Quote";
 import Subscription from "../../../shared/components/Subscription";
 import Footer from "../../Footer/Footer";
+import donOsImg from "../../../images/don-os-2.png";
 
 function Home() {
   return (
@@ -15,7 +16,12 @@ function Home() {
       <Banner />
       <Information />
       <Works />
-      <Quote />
+      <Quote
+        image={donOsImg}
+        subtitle="Don Os en palabras"
+        quote="Mis kilos y la pequeñez de mi vehículo nos hacen un objeto para burlas, apodos y caricaturas"
+        author="Oswaldo Díaz Díaz"
+      />
       <Subscription />
       <Footer />
     </div>

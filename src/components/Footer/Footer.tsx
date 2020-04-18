@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.scss";
 import minCulturaLogo from "../../images/logo-min.svg";
 import bibliotecaLogo from "../../images/logo-biblioteca.svg";
@@ -23,20 +24,28 @@ function Footer() {
           <div>
             <span className="subject white">Categorías</span>
             <ul>
-              <li className="content small-size white">Biografía</li>
-              <li className="content small-size white">Obra</li>
-              <li className="content small-size white">Contacto</li>
-              <li className="content small-size white">Acerca de</li>
+              <li className="content small-size white">
+                <Link to="/biografia">Biografía</Link>
+              </li>
+              <li className="content small-size white">
+                <Link to="/obra">Obra</Link>
+              </li>
+              <li className="content small-size white">
+                <Link to="/contacto">Contacto</Link>
+              </li>
+              <li className="content small-size white">
+                <Link to="/acerca-de">Acerca de</Link>
+              </li>
             </ul>
           </div>
         </div>
         <div className="pure-u-1-4">
           <span className="subject white">Síguenos</span>
           <p className="icon-items">
-            <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank">
+            <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-facebook white"></i>
             </a>
-            <a href="https://www.instagram.com/donoswaldodiazdiaz/" target="_blank">
+            <a href="https://www.instagram.com/donoswaldodiazdiaz/" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-instagram white"></i>
             </a>
           </p>

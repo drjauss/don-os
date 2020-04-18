@@ -6,6 +6,7 @@ import Subscription from "../../../shared/components/Subscription";
 import SectionTitle from "../../../shared/components/SectionTitle/SectionTitle";
 import WorkBox from "../../../shared/components/Works/WorkBox/WorkBox";
 import { ColorsEnum } from "../../../shared/definitions/enums/colors.enum";
+import Quote from "../../../shared/components/Quote";
 
 function Work() {
   return (
@@ -46,6 +47,11 @@ function Work() {
           <WorkBox color={ColorsEnum.lightBlue} title="Rataplán" subtitle="Radioteatro" />
         </div>
       </div>
+      <Quote
+        subtitle="Don Os en palabras"
+        author="Arturo Camacho Ramírez"
+        quote="Pedagogo por vocación generosa, literato por exquisita dilación del espíritu"
+      />
       <Subscription />
       <Footer />
     </div>

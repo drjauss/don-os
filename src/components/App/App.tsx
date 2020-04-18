@@ -16,7 +16,7 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/biografia" exact component={Biography} />
+          <Route path="/biografia" component={Biography} />
           <Route path="/obra" exact component={Work} />
           <Route path="/contacto" exact component={Contact} />
           <Route path="/acerca-de" exact component={About} />
