@@ -1,19 +1,25 @@
 import React from "react";
 import "./WorkBox.scss";
-import { ColorsEnum } from "../../../definitions/enums/colors.enum";
+import { ColorsEnum } from "../definitions/enums/colors.enum";
+import { Link } from "react-router-dom";
 
 type WorkBoxProps = {
   color?: ColorsEnum;
   subtitle?: string;
   title?: string;
+  link?: string;
 };
 
-function WorkBox(props: WorkBoxProps) {
+function WorkBox({ color, subtitle, title, link }: WorkBoxProps) {
   return (
     <div className="WorkBox">
-      <div className={"box center " + props.color + "-bg"}>
-        {props.subtitle && <span className="subject">{props.subtitle}</span>}
-        {props.title && <h1 className="title with-subject">{props.title}</h1>}
+      <div className={"box center " + color + "-bg"}>
+        {subtitle && <span className="subject">{subtitle}</span>}
+        {title && (
+          <h1 className="title with-subject">
+            <Link to={link || "/obra"}>{title}</Link>
+          </h1>
+        )}
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Work from "../Section/Work";
 import Contact from "../Section/Contact";
 import About from "../Section/About";
 import ScrollToTop from "../ScrollToTop";
+import Review from "../../shared/components/Works/Review/Review";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/biografia" component={Biography} />
-          <Route path="/obra" exact component={Work} />
+          <Route path="/obra/:item" component={Review} />
+          <Route path="/obra" component={Work} />
           <Route path="/contacto" exact component={Contact} />
           <Route path="/acerca-de" exact component={About} />
         </Switch>

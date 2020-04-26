@@ -13,14 +13,20 @@
       font-size: 1em;
     }
 
-    h1.title.with-subject {
-      color: white;
-      cursor: pointer;
-      margin-bottom: 0;
-      transition: transform 0.2s ease-in-out;
+    h1 {
+      &.title.with-subject {
+        color: white;
+        cursor: pointer;
+        margin-bottom: 0;
+        transition: transform 0.2s ease-in-out;
 
-      &:hover {
-        transform: scale(1.1);
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      a {
+        color: inherit;
       }
     }
   }

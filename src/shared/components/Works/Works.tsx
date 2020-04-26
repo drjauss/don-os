@@ -1,7 +1,7 @@
 import React from "react";
 import "./Works.scss";
 import WorkBox from "./WorkBox/WorkBox";
-import { ColorsEnum } from "../../definitions/enums/colors.enum";
+import { ColorsEnum } from "./definitions/enums/colors.enum";
 
 function Works() {
   return (

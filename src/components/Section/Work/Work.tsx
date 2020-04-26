@@ -5,8 +5,9 @@ import Footer from "../../Footer";
 import Subscription from "../../../shared/components/Subscription";
 import SectionTitle from "../../../shared/components/SectionTitle/SectionTitle";
 import WorkBox from "../../../shared/components/Works/WorkBox/WorkBox";
-import { ColorsEnum } from "../../../shared/definitions/enums/colors.enum";
 import Quote from "../../../shared/components/Quote";
+import { workList } from "../../../shared/components/Works/definitions/constants/work-list.constant";
+import { colorOrder } from "../../../shared/components/Works/definitions/constants/color-order.constant";
 
 function Work() {
   return (
@@ -16,36 +17,18 @@ function Work() {
         <SectionTitle title="Más allá del país de Lilac" subtitle="Obra" />
       </div>
       <div className="pure-g">
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.orange} title="El país de Lilac" subtitle="Cuento" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.lightBlue} title="Aspecto de la literatura infantil" subtitle="No ficción" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.yellow} title="Blondinette" subtitle="Teatro" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.pink} title="El cargador de sal" subtitle="Radioteatro" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.magenta} title="Rayos y centellas" subtitle="Cuento" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.orange} title="Juegos de antaño" subtitle="No ficción" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.yellow} title="Los papagayos de Don Cristóforo" subtitle="Radioteatro" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.pink} title="Rómpelo-Todo" subtitle="Cuento" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.orange} title="Matilde Anaray, la pastorcita de Socha" subtitle="Cuento" />
-        </div>
-        <div className="pure-u-1-2">
-          <WorkBox color={ColorsEnum.lightBlue} title="Rataplán" subtitle="Radioteatro" />
-        </div>
+        {workList.map((work, i) => {
+          return (
+            <div className="pure-u-1-2">
+              <WorkBox
+                color={colorOrder[i % colorOrder.length]}
+                title={work.title}
+                subtitle={work.category}
+                link={`/obra/${work.slug}`}
+              />
+            </div>
+          );
+        })}
       </div>
       <Quote
         subtitle="Don Os en palabras"
