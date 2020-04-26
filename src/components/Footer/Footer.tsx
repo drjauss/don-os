@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className="Footer pale-green-bg">
       <div className="pure-g footer-columns section-padding">
-        <div className="pure-u-1-4">
+        <div className="pure-u-1-3">
           <div>
             <h3 className="title no-margin white">Don Os vuelve a Lilac</h3>
-            <p className="content small justified white">
+            <p className="content small justified white footer-paragraph">
               Esta publicación digital es de acceso gratuito, sin ánimo de lucro y tiene fines exclusivamente didácticos
               y culturales. Todos los contenidos aquí utilizados cumplen con la legislación de derechos de autor y no
               pueden ser reporducidos total o parcialmente, en ninguna forma ni por ningún medio, sin autorización
@@ -20,7 +20,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="pure-u-1-4">
+        <div className="pure-u-1-6">
           <div>
             <span className="subject white">Categorías</span>
             <ul>
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pure-u-1-4">
+        <div className="pure-u-1-6">
           <span className="subject white">Síguenos</span>
           <p className="icon-items">
             <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank" rel="noopener noreferrer">
@@ -48,9 +48,16 @@ function Footer() {
             <a href="https://www.instagram.com/donoswaldodiazdiaz/" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-instagram white"></i>
             </a>
+            <a
+              href="https://www.youtube.com/channel/UC0Q6_qSfsGJRLVo6Q0E0yFQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-youtube white"></i>
+            </a>
           </p>
         </div>
-        <div className="pure-u-1-4">
+        <div className="pure-u-1-3">
           <div>
             <span className="subject white">Un proyecto con apoyo de</span>
             <p className="row-displayed">

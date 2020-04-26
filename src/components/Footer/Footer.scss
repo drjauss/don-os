@@ -1,10 +1,11 @@
 .Footer {
-  .footer-columns > div > div {
-    padding-right: 50px;
+  .footer-columns > div > div,
+  .footer-paragraph {
+    padding-right: 30px;
   }
 
   .section-padding {
-    padding: 5% 10% 0 10%;
+    padding: 5% 5% 0 5%;
   }
 
   .row-displayed {
@@ -18,7 +19,8 @@
   }
 
   .icon-items {
-    .fa-facebook {
+    .fa-facebook,
+    .fa-instagram {
       margin-right: 40px;
     }
 
