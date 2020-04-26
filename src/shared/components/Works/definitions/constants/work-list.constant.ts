@@ -15,7 +15,7 @@ export const workList: Array<Work> = [
             availableAt: 'Biblioteca Nacional de Colombia'
         },
         category: WorkCategory.TEATRO,
-        slug: 'blondinette'
+        slug: 'blondinette',
     },
     {
         id: 2,
