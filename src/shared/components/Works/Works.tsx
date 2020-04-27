@@ -2,6 +2,8 @@ import React from "react";
 import "./Works.scss";
 import WorkBox from "./WorkBox/WorkBox";
 import { ColorsEnum } from "./definitions/enums/colors.enum";
+import { workList } from "./definitions/constants/work-list.constant";
+import { colorOrder } from "./definitions/constants/color-order.constant";
 
 function Works() {
   return (
@@ -13,18 +15,20 @@ function Works() {
 
       <div className="featured-works">
         <div className="pure-g">
-          <div className="pure-u-1-2">
-            <WorkBox color={ColorsEnum.orange} title="El país de Lilac" subtitle="Cuento" />
-          </div>
-          <div className="pure-u-1-2">
-            <WorkBox color={ColorsEnum.lightBlue} title="Aspecto de la Literatura infantil" subtitle="No ficción" />
-          </div>
-          <div className="pure-u-1-2">
-            <WorkBox color={ColorsEnum.yellow} title="Blondinette" subtitle="Teatro" />
-          </div>
-          <div className="pure-u-1-2">
-            <WorkBox color={ColorsEnum.pink} title="El cargador de sal" subtitle="Radioteatro" />
-          </div>
+          {workList
+            .filter((w) => w.featured)
+            .map((work, i) => {
+              return (
+                <div key={work.slug} className="pure-u-1-2">
+                  <WorkBox
+                    color={colorOrder[i % colorOrder.length]}
+                    title={work.title}
+                    subtitle={work.category}
+                    link={`/obra/${work.slug}`}
+                  />
+                </div>
+              );
+            })}
         </div>
       </div>
     </div>

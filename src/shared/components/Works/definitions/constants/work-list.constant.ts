@@ -24,6 +24,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.TEATRO,
             availableAt: 'Biblioteca Nacional de Colombia'
         },
+        featured: true,
         illustration: imgBlondinette,
         category: WorkCategory.TEATRO,
         slug: 'blondinette',
@@ -73,6 +74,7 @@ export const workList: Array<Work> = [
             genre: [WorkCategory.RADIOTEATRO, WorkCategory.CUENTO],
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango, Biblioteca Universidad Javeriana'
         },
+        featured: true,
         illustration: imgElCargadorDeSal,
         category: WorkCategory.RADIOTEATRO,
         slug: 'el-cargador-de-sal'
@@ -88,6 +90,7 @@ export const workList: Array<Work> = [
             publishingLocation: 'Bogotá',
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
         },
+        featured: true,
         illustration: imgAspectoDeLaLiteraturaInfantil,
         category: WorkCategory.NO_FICCION,
         slug: 'aspecto-de-la-literatura-infantil'
@@ -149,6 +152,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango'
         },
+        featured: true,
         illustration: imgElPaisDeLilac,
         category: WorkCategory.CUENTO,
         slug: 'el-pais-de-lilac'

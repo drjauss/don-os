@@ -19,7 +19,7 @@ function Work() {
       <div className="pure-g">
         {workList.map((work, i) => {
           return (
-            <div className="pure-u-1-2">
+            <div key={work.slug} className="pure-u-1-2">
               <WorkBox
                 color={colorOrder[i % colorOrder.length]}
                 title={work.title}

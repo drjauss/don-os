@@ -1,7 +1,7 @@
 import React from "react";
 import "./Review.scss";
 import Header from "../../../../components/Header/Header";
-import { Redirect, useParams } from "react-router-dom";
+import { Redirect, useParams, useLocation } from "react-router-dom";
 import { workSlugs } from "../definitions/constants/work-slugs.constant";
 import Footer from "../../../../components/Footer/Footer";
 import Subscription from "../../Subscription/Subscription";
@@ -12,6 +12,8 @@ import { reviews } from "./definitions/constants/review-list.constant";
 
 function Review() {
   let { item } = useParams();
+  let { search } = useLocation();
+  let color = search.split("=")[1];
   let work = workList.find((work: Work) => work.slug === item);
   let review = reviews[item as string];
   let tds = work?.technicalDetails;
@@ -27,7 +29,7 @@ function Review() {
         </p>
       </div>
       <div className="pure-g">
-        <div className="pure-u-1-2 technicalDetails">
+        <div className={`pure-u-1-2 technicalDetails ${color || "orange"}-bg`}>
           <div>
             <p className="subtitle underlined white">Ficha técnica:</p>
             <p className="content">
@@ -69,7 +71,7 @@ function Review() {
       </div>
       <div className="section-padding">
         {review.bottomParagraph}
-        {review.sections}
+        <div className={`${color}-review`}>{review.sections}</div>
       </div>
       <Subscription />
       <Footer />

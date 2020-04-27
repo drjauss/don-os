@@ -9,7 +9,8 @@ $pink: #ff657d;
 $magenta: #cb1d5b;
 $pale-green: #648f85;
 
-.white {
+.white,
+.white-review .review-title {
   color: white;
 }
 
@@ -17,7 +18,8 @@ $pale-green: #648f85;
   background-color: white;
 }
 
-.black {
+.black,
+.black-review .review-title {
   color: $black;
 
   &.bottom-shadow {
@@ -29,7 +31,8 @@ $pale-green: #648f85;
   background-color: $black;
 }
 
-.orange {
+.orange,
+.orange-review .review-title {
   color: $orange;
 }
 
@@ -37,7 +40,8 @@ $pale-green: #648f85;
   background-color: $orange;
 }
 
-.light-blue {
+.light-blue,
+.light-blue-review .review-title {
   color: $light-blue;
 }
 
@@ -45,7 +49,8 @@ $pale-green: #648f85;
   background-color: $light-blue;
 }
 
-.green {
+.green,
+.green-review .review-title {
   color: $green;
 }
 
@@ -54,7 +59,7 @@ $pale-green: #648f85;
 }
 
 .yellow,
-a.yellow-link {
+a.yellow-link .yellow-review .review-title {
   color: $yellow;
 
   &.bottom-shadow {
@@ -70,7 +75,8 @@ a.yellow-link {
   background-color: $yellow;
 }
 
-.pink {
+.pink,
+.pink-review .review-title {
   color: $pink;
 }
 
@@ -78,7 +84,8 @@ a.yellow-link {
   background-color: $pink;
 }
 
-.magenta {
+.magenta,
+.magenta-review .review-title {
   color: $magenta;
 }
 
@@ -86,7 +93,8 @@ a.yellow-link {
   background-color: $magenta;
 }
 
-.pale-green {
+.pale-green,
+.pale-green-review .review-title {
   color: $pale-green;
 }
 

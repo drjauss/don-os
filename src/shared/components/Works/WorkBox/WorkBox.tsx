@@ -8,16 +8,32 @@ type WorkBoxProps = {
   subtitle?: string;
   title?: string;
   link?: string;
+  backgroundImg?: string;
 };
 
-function WorkBox({ color, subtitle, title, link }: WorkBoxProps) {
+function WorkBox({ color, subtitle, title, link, backgroundImg }: WorkBoxProps) {
+  const backgroundStyle =
+    (backgroundImg && {
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "contain",
+      backgroundImage: "url(" + backgroundImg + ")",
+    }) ||
+    {};
+
   return (
     <div className="WorkBox">
-      <div className={"box center " + color + "-bg"}>
+      <div className={"box center " + color + "-bg"} style={backgroundStyle}>
         {subtitle && <span className="subject">{subtitle}</span>}
         {title && (
           <h1 className="title with-subject">
-            <Link to={link || "/obra"}>{title}</Link>
+            <Link
+              to={{
+                pathname: link || "/obra",
+                search: `?color=${color}`,
+              }}
+            >
+              {title}
+            </Link>
           </h1>
         )}
       </div>
