@@ -9,11 +9,13 @@ function Header() {
   return (
     <div className="Header">
       <nav>
-        <div>
-          <Link to="/">
-            <h2 className="title">Don Os vuelve a Lilac</h2>
-          </Link>
-        </div>
+        {location.pathname !== NavigationRoutesEnum.HOME && (
+          <div>
+            <Link to="/">
+              <h2 className="title">Don Os vuelve a Lilac</h2>
+            </Link>
+          </div>
+        )}
         <div>
           <ul>
             <li className={location.pathname === NavigationRoutesEnum.HOME ? "active" : ""}>
