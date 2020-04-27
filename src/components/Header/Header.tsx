@@ -19,16 +19,16 @@ function Header() {
             <li className={location.pathname === NavigationRoutesEnum.HOME ? "active" : ""}>
               <Link to="/">Inicio</Link>
             </li>
-            <li className={location.pathname === NavigationRoutesEnum.BIOGRAPHY ? "active" : ""}>
+            <li className={location.pathname.includes(NavigationRoutesEnum.BIOGRAPHY) ? "active" : ""}>
               <Link to="/biografia">Biografía</Link>
             </li>
-            <li className={location.pathname === NavigationRoutesEnum.WORK ? "active" : ""}>
+            <li className={location.pathname.includes(NavigationRoutesEnum.WORK) ? "active" : ""}>
               <Link to="/obra">Obra</Link>
             </li>
-            <li className={location.pathname === NavigationRoutesEnum.CONTACT ? "active" : ""}>
+            <li className={location.pathname.includes(NavigationRoutesEnum.CONTACT) ? "active" : ""}>
               <Link to="/contacto">Contacto</Link>
             </li>
-            <li className={location.pathname === NavigationRoutesEnum.ABOUT ? "active" : ""}>
+            <li className={location.pathname.includes(NavigationRoutesEnum.ABOUT) ? "active" : ""}>
               <Link to="/acerca-de">Acerca de</Link>
             </li>
           </ul>
