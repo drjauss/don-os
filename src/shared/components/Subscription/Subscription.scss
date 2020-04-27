@@ -2,4 +2,40 @@
 
 .Subscription {
   background-color: $orange;
+
+  div.center.section-padding {
+    padding-bottom: 5%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > input {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid white;
+      width: 30%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    div {
+      margin-top: 20px;
+    }
+
+    button {
+      margin-top: 20px;
+      color: white;
+      border: 2px solid white;
+      padding: 13px 29px;
+    }
+  }
 }

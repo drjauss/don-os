@@ -59,7 +59,8 @@ $pale-green: #648f85;
 }
 
 .yellow,
-a.yellow-link .yellow-review .review-title {
+a.yellow-link,
+.yellow-review .review-title {
   color: $yellow;
 
   &.bottom-shadow {
