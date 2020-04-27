@@ -1,5 +1,15 @@
 import { Work } from "../types/work.type";
 import { WorkCategory } from "../enums/work-category.enum";
+import imgBlondinette from '../../../../../images/illustrations/Blondinette-min.png';
+import imgRataplan from '../../../../../images/illustrations/Rataplan-min.png';
+import imgTimonel from '../../../../../images/illustrations/Timonel-min.png';
+import imgElCargadorDeSal from '../../../../../images/illustrations/el-cargador-de-sal-min.png';
+import imgAspectoDeLaLiteraturaInfantil from '../../../../../images/illustrations/aspecto-de-la-literatura-min.png';
+import imgJuegosDeAntano from '../../../../../images/illustrations/juegos-de-antano-min.png';
+import imgRompeloTodo from '../../../../../images/illustrations/rompelo-todo-min.png';
+import imgMatildeAnaray from '../../../../../images/illustrations/Matilde-min.png';
+import imgElPaisDeLilac from '../../../../../images/illustrations/el-pais-de-lilac-min.png';
+import imgRayosYCentellas from '../../../../../images/illustrations/Rayos-min.png';
 
 export const workList: Array<Work> = [
     {
@@ -14,6 +24,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.TEATRO,
             availableAt: 'Biblioteca Nacional de Colombia'
         },
+        illustration: imgBlondinette,
         category: WorkCategory.TEATRO,
         slug: 'blondinette',
     },
@@ -29,6 +40,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Pontificia Universidad Javeriana y Biblioteca Luis Ángel Arango '
         },
+        illustration: imgRataplan,
         category: WorkCategory.RADIOTEATRO,
         slug: 'rataplan'
 
@@ -45,6 +57,7 @@ export const workList: Array<Work> = [
             genre: [WorkCategory.RADIOTEATRO, WorkCategory.CUENTO],
             availableAt: 'Biblioteca Nacional de Colombia'
         },
+        illustration: imgTimonel,
         category: WorkCategory.RADIOTEATRO,
         slug: 'timonel'
     },
@@ -60,6 +73,7 @@ export const workList: Array<Work> = [
             genre: [WorkCategory.RADIOTEATRO, WorkCategory.CUENTO],
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango, Biblioteca Universidad Javeriana'
         },
+        illustration: imgElCargadorDeSal,
         category: WorkCategory.RADIOTEATRO,
         slug: 'el-cargador-de-sal'
     },
@@ -74,6 +88,7 @@ export const workList: Array<Work> = [
             publishingLocation: 'Bogotá',
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
         },
+        illustration: imgAspectoDeLaLiteraturaInfantil,
         category: WorkCategory.NO_FICCION,
         slug: 'aspecto-de-la-literatura-infantil'
     },
@@ -88,6 +103,7 @@ export const workList: Array<Work> = [
             publishingLocation: 'Bogotá',
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
         },
+        illustration: imgJuegosDeAntano,
         category: WorkCategory.NO_FICCION,
         slug: 'juegos-de-antano'
     },
@@ -103,6 +119,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Pontificia Universidad Javeriana, Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango'
         },
+        illustration: imgRompeloTodo,
         category: WorkCategory.CUENTO,
         slug: 'rompelo-todo'
     },
@@ -116,6 +133,7 @@ export const workList: Array<Work> = [
             publishedAt: 'Revista Vida No. 39, 1950. Cuentos Tricolores, 1967',
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango, Biblioteca Universidad Javeriana'
         },
+        illustration: imgMatildeAnaray,
         category: WorkCategory.CUENTO,
         slug: 'matilde-anaray'
     },
@@ -131,6 +149,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango'
         },
+        illustration: imgElPaisDeLilac,
         category: WorkCategory.CUENTO,
         slug: 'el-pais-de-lilac'
     },
@@ -146,6 +165,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Nacional de Colombia'
         },
+        illustration: imgRayosYCentellas,
         category: WorkCategory.CUENTO,
         slug: 'rayos-y-centellas'
     }
