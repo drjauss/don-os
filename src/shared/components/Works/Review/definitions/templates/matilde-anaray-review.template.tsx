@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       Matilde Anaray, “la pastorcita de Socha”, es uno de esos personajes históricos que por largo tiempo pasaron
       desapercibidos: no hacía parte de la Historia Oficial (esa que se escribe en mayúscula) y su gesto generoso de
@@ -38,7 +38,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">Dos versiones, una pastora un acto heroico</h3>
+      <h3 className="review-title subtitle">Dos versiones, una pastora un acto heroico</h3>
       <p className="content justified">
         Contrario a la patriota historia que se cuenta por estos días en la que la niña (a veces de once años, en otros
         relatos de trece) lidera a un grupo de patriotas para que se desprendan de sus ropas y se las entreguen al

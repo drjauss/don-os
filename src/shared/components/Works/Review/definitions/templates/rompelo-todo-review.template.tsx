@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       Así como otros cuentos que hacen parte del repertorio literario como Cenicienta o Blancanieves, este también habla
       de la historia de una niña que vivía con su madrastra.
@@ -50,7 +50,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">Un cuento de hadas colombiano</h3>
+      <h3 className="review-title subtitle">Un cuento de hadas colombiano</h3>
       <p className="content justified">
         En esta narración llena de escenas tristes y violentas, Oswaldo Díaz Díaz toma de la tradición de los cuentos de
         hadas algunos elementos y los funde con aspectos del contexto colombiano. Se basa en una estructura básica,

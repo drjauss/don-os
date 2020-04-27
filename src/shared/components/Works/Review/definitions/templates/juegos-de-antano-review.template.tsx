@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       Hace poco más de setenta años, Oswaldo Díaz Díaz contó a los niños de mediados del siglo pasado cómo se divertían
       sus abuelos cuando, por allá por 1874, esos viejos eran todavía niños. Hoy, al leer “Diversiones de antaño”, nos

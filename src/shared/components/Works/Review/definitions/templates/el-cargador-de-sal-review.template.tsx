@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       “Tilín, tilín, sonaban unas laminitas de metal colgadas sobre los cercados del palacio del Zipa. Tilín, tilín cada
       vez que pasaba un poquito de viento”.

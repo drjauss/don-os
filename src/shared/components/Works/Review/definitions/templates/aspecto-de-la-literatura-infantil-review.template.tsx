@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       Oswaldo Díaz Díaz fue el primer colombiano en publicar un ensayo en el que se reflexionara detenidamente y con
       suma profundidad sobre la literatura infantil. Se trata de “Aspecto de la literatura infantil”, un texto breve
@@ -32,7 +32,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">Definición y clasificación de la literatura infantil según Don Os</h3>
+      <h3 className="review-title subtitle">Definición y clasificación de la literatura infantil según Don Os</h3>
       <p className="content justified">
         En “Aspecto de la literatura infantil” –texto que debería ser de obligada lectura para quienes trabajan con
         libros para niños–, Oswaldo Díaz Díaz aborda el tema desde tres líneas: &nbsp;
@@ -58,7 +58,7 @@ export const sections = (
       </p>
     </div>
     <div className="sectionReview">
-      <h3 className="review-title">Fondo y forma: fantasía, imaginación, lenguaje y verosimilitud</h3>
+      <h3 className="review-title subtitle">Fondo y forma: fantasía, imaginación, lenguaje y verosimilitud</h3>
       <p className="content justified">
         Este, a mi manera de ver, es el apartado más interesante de este escrito de Don Os. No solo es crítico, sino
         también propositivo. En él, de forma sucinta, aborda temas que se mantienen vigentes en la escritura de la
@@ -83,7 +83,7 @@ export const sections = (
       </p>
     </div>
     <div className="sectionReview">
-      <h3 className="review-title">Colorear con palabras</h3>
+      <h3 className="review-title subtitle">Colorear con palabras</h3>
       <p className="content justified">
         De acuerdo con Don Os, una de las cualidades más relevantes de un texto infantil debe ser la de colorear con
         palabras: “el color, el brillo de los tonos, la policromía dan pie para que el{" "}
@@ -105,7 +105,7 @@ export const sections = (
       </p>
     </div>
     <div className="sectionReview">
-      <h3 className="review-title">Vicios de siempre en la literatura infantil</h3>
+      <h3 className="review-title subtitle">Vicios de siempre en la literatura infantil</h3>
       <p className="content justified">
         Es muy llamativo reconocer cómo los vicios de la literatura infantil de hace más de cincuenta años prevalecen a
         pesar del tiempo. Para Díaz Díaz, la puerilidad en el lenguaje es quizá uno de los más extendidos.

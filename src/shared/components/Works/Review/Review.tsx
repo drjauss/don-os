@@ -14,6 +14,7 @@ function Review() {
   let { item } = useParams();
   let work = workList.find((work: Work) => work.slug === item);
   let review = reviews[item as string];
+  let tds = work?.technicalDetails;
 
   return (
     <div className="Review">
@@ -24,6 +25,51 @@ function Review() {
         <p className="center image-responsive">
           <img src={work?.illustration} alt={work?.title + " illustration"} />
         </p>
+      </div>
+      <div className="pure-g">
+        <div className="pure-u-1-2 technicalDetails">
+          <div>
+            <p className="subtitle underlined white">Ficha técnica:</p>
+            <p className="content">
+              {tds?.title && (
+                <span className="white">
+                  Titulo: {tds.title} <br />
+                </span>
+              )}
+              {tds?.author && (
+                <span className="white">
+                  Autor: {tds.author} <br />
+                </span>
+              )}
+              {tds?.publishedAt && (
+                <span className="white">
+                  En: {tds.publishedAt} <br />
+                </span>
+              )}
+              {tds?.genre && (
+                <span className="white">
+                  Género: {tds.genre} <br />
+                </span>
+              )}
+              {tds?.publishingLocation && (
+                <span className="white">
+                  Lugar de publicación: {tds.publishingLocation} <br />
+                </span>
+              )}
+              {tds?.availableAt && (
+                <span className="white">
+                  Disponible en: {tds.availableAt} <br />
+                </span>
+              )}
+            </p>
+            {tds?.reviewedBy && <p className="content white">Reseña por: {tds.reviewedBy}</p>}
+          </div>
+        </div>
+        <div className="pure-u-1-2">{review.mainParagraph}</div>
+      </div>
+      <div className="section-padding">
+        {review.bottomParagraph}
+        {review.sections}
       </div>
       <Subscription />
       <Footer />

@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       “—Y ésa, ésa es la muñeca de porcelana, Blondinette, la más bella de cuantas muñecas se han conocido. Tez de
       melocotón, ojos de cielo con estrellitas dentro de ellos. Voz de cristal y risa de fiestas”.
@@ -53,7 +53,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">Blondinette: entre los juguetes y el fascismo</h3>
+      <h3 className="review-title subtitle">Blondinette: entre los juguetes y el fascismo</h3>
       <p className="content justified">
         Blondinette –desarrollada en cuatro actos– es una de las más famosas obras de teatro escritas por Oswaldo Díaz
         Díaz. Ha sido catalogada para público infantil; sin embargo, dada su complejidad ideológica puede tener otros
@@ -119,7 +119,7 @@ export const sections = (
       </p>
     </div>
     <div className="sectionReview">
-      <h3 className="review-title">En las tablas y en la radio</h3>
+      <h3 className="review-title subtitle">En las tablas y en la radio</h3>
       <p className="content justified">
         Blondinette se terminó de escribir en julio de 1941. Fue estrenada en la Radiodifusora Nacional el domingo 17 de
         agosto del mismo año. Aquella noche, Oswaldo Díaz Díaz tuvo que interpretar el papel de Blondel. En este medio

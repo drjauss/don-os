@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       “¡Rayos y centellas!”, gritó el capitán. “¡Rayos y centellas!”, repitió el segundo a bordo. “¡Rayos y centellas!”,
       repitieron el timonel, el contramaestre y todos los marineros, hasta el grumete de las cocinas.

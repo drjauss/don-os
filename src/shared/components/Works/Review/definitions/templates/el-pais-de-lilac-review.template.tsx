@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       “A veces los niños de la tierra, y también las gentes mayores, sienten deseos de volver a Lilac y recuerdan algo
       de lo que allí vieron. Entonces hay una manera de volver a ese hermoso país, pero nunca se llega completamente; lo
@@ -34,7 +34,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">El reino de los niños</h3>
+      <h3 className="review-title subtitle">El reino de los niños</h3>
       <p className="content justified">
         Lilac es entonces una especie de reino de la infancia, donde los niños viven felices, en libertad, donde los
         letreros en las vitrinas son “Ver y tocar” o “Ver y probar”. Es un país soñado para los niños, que nos recuerda
@@ -59,7 +59,7 @@ export const sections = (
       </p>
     </div>
     <div className="sectionReview">
-      <h3 className="review-title">Lilac: el lugar de Don Os</h3>
+      <h3 className="review-title subtitle">Lilac: el lugar de Don Os</h3>
       <p className="content justified">
         Lilac es un lugar insignia para hablar de Oswaldo Díaz Díaz. Aparece en este relato, que fue publicado por
         primera vez en una antología de cuentos que lleva el mismo nombre. Posteriormente apareció Retorno a Lilac y

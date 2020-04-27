@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       Oswaldo Díaz Díaz fue un gran conocedor e investigador de la Historia, pero antes que nada él se identificaba a sí
       mismo como educador, por lo que no se contentaba solo con leer mucho, sino que adoraba enseñar.

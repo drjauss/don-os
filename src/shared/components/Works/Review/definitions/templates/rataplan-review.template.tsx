@@ -1,7 +1,7 @@
 import React from "react";
 
 export const mainParagraph = (
-  <div className="mainPagraph">
+  <div className="mainParagraph">
     <p className="content justified">
       “Rataplán, rataplán, rataplán, plan plan” cantaban los tambores del ejército bajo el mando del Libertador Simón
       Bolívar. Estos sonidos y el sueño de la libertad, llevaron a Jacinto, “un muchachito mestizo, delgaducho por el
@@ -38,7 +38,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title">El delirio para hablar de la libertad</h3>
+      <h3 className="review-title subtitle">El delirio para hablar de la libertad</h3>
       <p className="content justified">
         Esta es una de las historias más conmovedoras de Oswaldo Díaz Díaz, quien vió en la historia de un niño soñador,
         valiente y comprometido con su patria la oportunidad perfecta para hablar de las batallas libertadoras desde la
