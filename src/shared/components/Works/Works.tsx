@@ -1,7 +1,6 @@
 import React from "react";
 import "./Works.scss";
 import WorkBox from "./WorkBox/WorkBox";
-import { ColorsEnum } from "./definitions/enums/colors.enum";
 import { workList } from "./definitions/constants/work-list.constant";
 import { colorOrder } from "./definitions/constants/color-order.constant";
 
@@ -25,6 +24,7 @@ function Works() {
                     title={work.title}
                     subtitle={work.category}
                     link={`/obra/${work.slug}`}
+                    backgroundImg={work.illustration}
                   />
                 </div>
               );

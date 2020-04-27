@@ -25,6 +25,7 @@ function Work() {
                 title={work.title}
                 subtitle={work.category}
                 link={`/obra/${work.slug}`}
+                backgroundImg={work.illustration}
               />
             </div>
           );
