@@ -29,7 +29,7 @@ function Review() {
         </p>
       </div>
       <div className="pure-g">
-        <div className={`pure-u-1-2 technicalDetails ${color || "orange"}-bg`}>
+        <div className={`pure-u-1 pure-u-md-1-2 technicalDetails ${color || "orange"}-bg`}>
           <div>
             <p className="subtitle underlined white">Ficha técnica:</p>
             <p className="content">
@@ -67,7 +67,7 @@ function Review() {
             {tds?.reviewedBy && <p className="content white">Reseña por: {tds.reviewedBy}</p>}
           </div>
         </div>
-        <div className="pure-u-1-2">{review.mainParagraph}</div>
+        <div className="pure-u-1 pure-u-md-1-2">{review.mainParagraph}</div>
       </div>
       <div className="section-padding">
         {review.bottomParagraph}
