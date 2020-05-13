@@ -6,7 +6,5 @@ export const colorOrder: Array<ColorsEnum> = [
     ColorsEnum.yellow,
     ColorsEnum.pink,
     ColorsEnum.magenta,
-    ColorsEnum.orange,
-    ColorsEnum.yellow,
-    ColorsEnum.pink
+    ColorsEnum.orange
 ];

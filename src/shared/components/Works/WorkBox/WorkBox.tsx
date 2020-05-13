@@ -17,15 +17,16 @@ function WorkBox({ color, subtitle, title, link, backgroundImg }: WorkBoxProps) 
       backgroundRepeat: "no-repeat",
       backgroundSize: "contain",
       backgroundImage: "url(" + backgroundImg + ")",
+      backgroundPosition: "bottom right",
     }) ||
     {};
 
   return (
     <div className="WorkBox">
-      <div className={"box center " + color + "-bg"} style={backgroundStyle}>
+      <div className={"box " + color + "-bg"} style={backgroundStyle}>
         {subtitle && <span className="subject">{subtitle}</span>}
         {title && (
-          <h1 className="title with-subject">
+          <h2 className="title with-subject">
             <Link
               to={{
                 pathname: link || "/obra",
@@ -34,7 +35,7 @@ function WorkBox({ color, subtitle, title, link, backgroundImg }: WorkBoxProps) 
             >
               {title}
             </Link>
-          </h1>
+          </h2>
         )}
       </div>
     </div>

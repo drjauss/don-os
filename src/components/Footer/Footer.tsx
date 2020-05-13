@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="Footer pale-green-bg">
       <div className="pure-g footer-columns section-padding">
-        <div className="pure-u-1-3">
+        <div className="pure-u-sm-1-3">
           <div>
             <h3 className="title no-margin white">Don Os vuelve a Lilac</h3>
             <p className="content small justified white footer-paragraph">
@@ -20,7 +20,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="pure-u-1-6">
+        <div className="pure-u-sm-1-6">
           <div>
             <span className="subject white">Categorías</span>
             <ul>
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pure-u-1-6">
+        <div className="pure-u-sm-1-6">
           <span className="subject white">Síguenos</span>
           <p className="icon-items">
             <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="pure-u-1-3">
+        <div className="pure-u-sm-1-3">
           <div>
             <span className="subject white">Un proyecto con apoyo de</span>
             <p className="row-displayed">
@@ -67,7 +67,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="pure-u-1-1 center">
+        <div className="pure-u-sm-1 center">
           <hr />
           <p className="content small white">Ⓒ Ministerio de Cultura - Biblioteca Nacional de Colombia, 2020</p>
         </div>

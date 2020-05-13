@@ -106,6 +106,7 @@ export const workList: Array<Work> = [
             publishingLocation: 'Bogotá',
             availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
         },
+        featured: true,
         illustration: imgJuegosDeAntano,
         category: WorkCategory.NO_FICCION,
         slug: 'juegos-de-antano'
@@ -169,6 +170,7 @@ export const workList: Array<Work> = [
             genre: WorkCategory.CUENTO,
             availableAt: 'Biblioteca Nacional de Colombia'
         },
+        featured: true,
         illustration: imgRayosYCentellas,
         category: WorkCategory.CUENTO,
         slug: 'rayos-y-centellas'

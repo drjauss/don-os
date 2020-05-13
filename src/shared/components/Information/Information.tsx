@@ -7,10 +7,10 @@ function Information() {
   return (
     <div className="Information">
       <div className="pure-g section-padding">
-        <div className="pure-u-1-2">
+        <div className="pure-u-1 pure-u-sm-1-2">
           <img className="image-box inversed" src={donOsImage} alt="Ilustración Don Os" />
         </div>
-        <div className="pure-u-1-2">
+        <div className="pure-u-1 pure-u-sm-1-2">
           <span className="subject">Biografía</span>
           <h1 className="title with-subject">Oswaldo Díaz Díaz</h1>
           <p className="content">
