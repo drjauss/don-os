@@ -10,6 +10,7 @@ import imgRompeloTodo from '../../../../../images/illustrations/rompelo-todo-min
 import imgMatildeAnaray from '../../../../../images/illustrations/Matilde-min.png';
 import imgElPaisDeLilac from '../../../../../images/illustrations/el-pais-de-lilac-min.png';
 import imgRayosYCentellas from '../../../../../images/illustrations/Rayos-min.png';
+import imgCambamBali from '../../../../../images/illustrations/Cambam-bali-min.png';
 
 export const workList: Array<Work> = [
     {
@@ -30,6 +31,20 @@ export const workList: Array<Work> = [
         slug: 'blondinette',
     },
     {
+        id: 11,
+        name: 'Tipos de hadas y seres fantásticos: un diccionario sin alfabeto',
+        title: 'Diccionario de las hadas',
+        technicalDetails: {
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Revista Vida, No. 60, 1953-1954',
+            publishingLocation: 'Bogotá',
+            genre: WorkCategory.NO_FICCION,
+            availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
+        },
+        category: WorkCategory.NO_FICCION,
+        slug: 'diccionario-de-las-hadas',
+    },
+    {
         id: 2,
         name: 'Rataplán: un repicar febril',
         title: 'Rataplán',
@@ -47,6 +62,20 @@ export const workList: Array<Work> = [
 
     },
     {
+        id: 12,
+        name: 'Hans Christian Andersen: el cisne danés',
+        title: 'Cómo era Hans Christian Andersen',
+        technicalDetails: {
+            title: 'Cómo era Hans Christian Andersen',
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Revista Vida, No. 28. Compañía Colombiana de Seguros (mayo, 1947)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango'
+        },
+        category: WorkCategory.NO_FICCION,
+        slug: 'como-era-christian-andersen'
+    },
+    {
         id: 3,
         name: 'Timonel: el papagayo que descubrió España',
         title: 'Timonel',
@@ -61,6 +90,19 @@ export const workList: Array<Work> = [
         illustration: imgTimonel,
         category: WorkCategory.RADIOTEATRO,
         slug: 'timonel'
+    },
+    {
+        id: 13,
+        name: 'Análisis literario de Rafael Pombo',
+        title: 'Las poesías infantiles de Rafael Pombo',
+        technicalDetails: {
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Hojas de cultura popular colombiana, No. 25. Ministerio de Educación Nacional (1953)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Luis Ángel Arango'
+        },
+        category: WorkCategory.NO_FICCION,
+        slug: 'poesias-infantiles-rafael-pombo'
     },
     {
         id: 4,
@@ -80,6 +122,19 @@ export const workList: Array<Work> = [
         slug: 'el-cargador-de-sal'
     },
     {
+        id: 14,
+        name: 'El descubrimiento de América para niños: Los animales que ayudaron al almirante',
+        title: 'Los animales que ayudaron al almirante',
+        technicalDetails: {
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Revista Vida, No. 53, 1952',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango'
+        },
+        category: WorkCategory.NO_FICCION,
+        slug: 'descubrimiento-de-america'
+    },
+    {
         id: 5,
         name: 'Los buenos libros para niños',
         title: 'Aspecto de la literatura infantil',
@@ -94,6 +149,19 @@ export const workList: Array<Work> = [
         illustration: imgAspectoDeLaLiteraturaInfantil,
         category: WorkCategory.NO_FICCION,
         slug: 'aspecto-de-la-literatura-infantil'
+    },
+    {
+        id: 15,
+        name: 'Zuhé',
+        title: 'Zuhé, el caracol más ágil de los pascas',
+        technicalDetails: {
+            title: 'Zuhé',
+            publishedAt: 'Cuentos tricolores (1967)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana'
+        },
+        category: WorkCategory.CUENTO,
+        slug: 'zuhe'
     },
     {
         id: 6,
@@ -112,6 +180,20 @@ export const workList: Array<Work> = [
         slug: 'juegos-de-antano'
     },
     {
+        id: 16,
+        name: 'La fantasía de la indigencia en “Pomarrosa en el parque”',
+        title: 'Pomarrosa en el parque',
+        technicalDetails: {
+            title: 'Pomarrosa en el parque',
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Rin Rin, No. 8. Revista infantil del Ministerio de Educación (1937), Otra vez en Lilac (1942), Cambam Bali (1973) y Retorno a Lilac (1987)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana'
+        },
+        category: WorkCategory.CUENTO,
+        slug: 'pomarrosa-en-el-parque'
+    },
+    {
         id: 7,
         name: 'Rómpelo-Todo y la magia angelical',
         title: 'Rómpelo-Todo',
@@ -128,6 +210,20 @@ export const workList: Array<Work> = [
         slug: 'rompelo-todo'
     },
     {
+        id: 17,
+        name: 'Entre la oralidad chibcha y los cuentos de hadas',
+        title: 'La laguna encantada',
+        technicalDetails: {
+            title: 'La laguna encantada',
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Rin Rin, Revista infantil del Ministerio de Educación,  No. 13 (1939) y Otra vez en Lilac (1942)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana'
+        },
+        category: WorkCategory.CUENTO,
+        slug: 'la-laguna-encantada'
+    },
+    {
         id: 8,
         name: 'Olor a vellón y romero',
         title: 'Matilde Anaray',
@@ -140,6 +236,20 @@ export const workList: Array<Work> = [
         illustration: imgMatildeAnaray,
         category: WorkCategory.CUENTO,
         slug: 'matilde-anaray'
+    },
+    {
+        id: 18,
+        name: 'La vida en el diario de un gorrión',
+        title: 'Diario de un gorrión',
+        technicalDetails: {
+            title: 'Diario de un gorrión',
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'Otra vez en Lilac (1942), Cambam Bali (1973) y Retorno a Lilac (1987)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca de la Pontificia Universidad Javeriana, Biblioteca Nacional y Biblioteca Luis Ángel Arango'
+        },
+        category: WorkCategory.CUENTO,
+        slug: 'diario-de-un-gorrion'
     },
     {
         id: 9,
@@ -157,6 +267,20 @@ export const workList: Array<Work> = [
         illustration: imgElPaisDeLilac,
         category: WorkCategory.CUENTO,
         slug: 'el-pais-de-lilac'
+    },
+    {
+        id: 19,
+        name: `“Cambam bali, cambam balicó”: el abracadabra de Don Os`,
+        title: 'Cambam Bali',
+        technicalDetails: {
+            author: 'Oswaldo Díaz Díaz',
+            publishedAt: 'El país de Lilac (1938) y Retorno a Lilac (1987)',
+            publishingLocation: 'Bogotá',
+            availableAt: 'Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango'
+        },
+        illustration: imgCambamBali,
+        category: WorkCategory.CUENTO,
+        slug: 'cambam-bali'
     },
     {
         id: 10,

@@ -25,7 +25,7 @@ function Review() {
       <div className="section-padding">
         <SectionTitle title={work?.title as string} subtitle={work?.category as string} />
         <p className="center image-responsive">
-          <img src={work?.illustration} alt={work?.title + " illustration"} />
+          {work?.illustration && <img src={work?.illustration} alt={work?.title + " illustration"} />}
         </p>
       </div>
       <div className="pure-g">
