@@ -14,21 +14,23 @@ function Works() {
 
       <div className="featured-works">
         <div className="pure-g">
-          {workList
-            .filter((w) => w.featured)
-            .map((work, i) => {
-              return (
-                <div key={work.slug} className="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                  <WorkBox
-                    color={colorOrder[i % colorOrder.length]}
-                    title={work.title}
-                    subtitle={work.category}
-                    link={`/obra/${work.slug}`}
-                    backgroundImg={work.illustration}
-                  />
-                </div>
-              );
-            })}
+          <div className="mid-section-padding">
+            {workList
+              .filter((w) => w.featured)
+              .map((work, i) => {
+                return (
+                  <div key={work.slug} className="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                    <WorkBox
+                      color={colorOrder[i % colorOrder.length]}
+                      title={work.title}
+                      subtitle={work.category}
+                      link={`/obra/${work.slug}`}
+                      backgroundImg={work.illustration}
+                    />
+                  </div>
+                );
+              })}
+          </div>
         </div>
       </div>
     </div>

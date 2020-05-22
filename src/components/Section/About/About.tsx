@@ -27,6 +27,28 @@ function About() {
           Este autor fue determinante en el ámbito de la literatura infantil por sus cuentos, obras teatrales y
           radiofónicas.
         </p>
+        <div className="center content underlined">
+          <a
+            download
+            href="/src/files/Documento-de-investigación-Don-Os-vuelve-a-Lilac.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="file-download-anchor orange content underlined"
+          >
+            <svg
+              fill="#fc643f"
+              width="28"
+              height="28"
+              xmlns="http://www.w3.org/2000/svg"
+              fillRule="evenodd"
+              clipRule="evenodd"
+            >
+              <path d="M24 12c0-6.623-5.377-12-12-12s-12 5.377-12 12 5.377 12 12 12 12-5.377 12-12zm-1 0c0-6.071-4.929-11-11-11s-11 4.929-11 11 4.929 11 11 11 11-4.929 11-11zm-11.5 4.828l-3.763-4.608-.737.679 5 6.101 5-6.112-.753-.666-3.747 4.604v-11.826h-1v11.828z" />
+            </svg>
+            <span>Descarga el documento de investigación aquí</span>
+          </a>
+        </div>
+
         <h3 className="content bold-font">Agradecimientos</h3>
         <p className="content justified">
           Gracias al &nbsp;

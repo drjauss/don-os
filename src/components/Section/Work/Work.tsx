@@ -17,19 +17,21 @@ function Work() {
         <SectionTitle title="Más allá del país de Lilac" subtitle="Obra" />
       </div>
       <div className="pure-g">
-        {workList.map((work, i) => {
-          return (
-            <div key={work.slug} className="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-              <WorkBox
-                color={colorOrder[i % colorOrder.length]}
-                title={work.title}
-                subtitle={work.category}
-                link={`/obra/${work.slug}`}
-                backgroundImg={work.illustration}
-              />
-            </div>
-          );
-        })}
+        <div className="mid-section-padding">
+          {workList.map((work, i) => {
+            return (
+              <div key={work.slug} className="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <WorkBox
+                  color={colorOrder[i % colorOrder.length]}
+                  title={work.title}
+                  subtitle={work.category}
+                  link={`/obra/${work.slug}`}
+                  backgroundImg={work.illustration}
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
       <Quote
         subtitle="Don Os en palabras"

@@ -10,8 +10,15 @@ function Subscription() {
         <form action="mailto:donosvuelvealilac@gmail.com,zumaservicioseditoriales@gmail.com">
           <input required className="content" type="text" placeholder="Correo electrónico" />
           <div className="white content">
-            <input required type="checkbox" />
-            Acepto la <a className="underlined">política de privacidad</a>
+            <label className="checkbox bounce">
+              <input type="checkbox" />
+              <svg viewBox="0 0 21 21">
+                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+              </svg>
+            </label>
+            <span className="white content">
+              Acepto la <a className="underlined">política de privacidad</a>
+            </span>
           </div>
           <button className="content" type="submit">
             Suscribirme

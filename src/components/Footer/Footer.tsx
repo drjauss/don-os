@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className="Footer pale-green-bg">
       <div className="pure-g footer-columns section-padding">
-        <div className="pure-u-sm-1-3">
+        <div className="pure-u-sm-1-4">
           <div>
             <h3 className="title no-margin white">Don Os vuelve a Lilac</h3>
-            <p className="content small justified white footer-paragraph">
+            <p className="content small left white footer-paragraph">
               Esta publicación digital es de acceso gratuito, sin ánimo de lucro y tiene fines exclusivamente didácticos
               y culturales. Todos los contenidos aquí utilizados cumplen con la legislación de derechos de autor y no
               pueden ser reporducidos total o parcialmente, en ninguna forma ni por ningún medio, sin autorización
@@ -20,7 +20,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="pure-u-sm-1-6">
+        <div className="pure-u-sm-1-4">
           <div>
             <span className="subject white">Categorías</span>
             <ul>
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pure-u-sm-1-6">
+        <div className="pure-u-sm-1-4">
           <span className="subject white">Síguenos</span>
           <p className="icon-items">
             <a href="https://www.facebook.com/DonOswaldoDiazDiaz" target="_blank" rel="noopener noreferrer">
@@ -57,12 +57,14 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="pure-u-sm-1-3">
+        <div className="pure-u-sm-1-4">
           <div>
             <span className="subject white">Un proyecto con apoyo de</span>
             <p className="row-displayed">
               <img src={minCulturaLogo} alt="Logo del ministerio de cultura" />
               <img src={bibliotecaLogo} alt="Logo de la bibliteca nacional de colombia" />
+            </p>
+            <p>
               <img src={senalMemoriaLogo} alt="Logo de Señal memoria RTVC" />
             </p>
           </div>

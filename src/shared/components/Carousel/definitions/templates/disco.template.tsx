@@ -10,12 +10,12 @@ export const discoContent = (
       Sus obras de radioteatro fueron presentadas, además, en radio Sutatenza y en la HJCK.
     </p>
     <p className="content justified">
-      Fue el libretista de la serie de radioteatro Cuentos y leyendas y de Leyendas, para ellas escribió obras
+      Fue el libretista de la serie de radioteatro <em>Cuentos y leyendas y de Leyendas</em>, para ellas escribió obras
       originales y adaptaciones dirigidas a niños y adultos.
     </p>
     <p className="content justified">
-      Uno de sus programas más conocidos fue Por aquí pasó Bolívar, transmitido en 1959. Esta serie es una muestra de su
-      interés por la historia y su anhelo de difusión.
+      Uno de sus programas más conocidos fue <em>Por aquí pasó Bolívar</em>, transmitido en 1959. Esta serie es una
+      muestra de su interés por la historia y su anhelo de difusión.
     </p>
   </div>
 );

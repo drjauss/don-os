@@ -6,11 +6,16 @@
   .box {
     padding: 25px 25px 0 25px;
     border-radius: 20px;
-    min-height: 380px;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
 
     span.subject {
       color: white;
@@ -22,16 +27,21 @@
         color: white;
         cursor: pointer;
         margin-bottom: 0;
-        transition: transform 0.2s ease-in-out;
-
-        &:hover {
-          transform: scale(1.05);
-        }
       }
 
       a {
         color: inherit;
       }
+    }
+  }
+
+  .media-size {
+    background-size: "60%";
+  }
+
+  @media screen and (max-width: 1240px) {
+    .media-size {
+      background-size: 70%;
     }
   }
 }
