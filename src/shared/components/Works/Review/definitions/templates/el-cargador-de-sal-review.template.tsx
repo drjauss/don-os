@@ -41,7 +41,7 @@ export const bottomParagraph = (
     </p>
     <p className="content justified">
       Esta breve narración, que pendula entre lo fantástico y lo histórico, se ensalza aún más en la edición de 1967 del
-      libro Cuentos Tricolores, donde las ilustraciones de Sergio Trujillo Magnenat la llenan de magnificencia y
+      libro <i>Cuentos tricolores</i>, donde las ilustraciones de Sergio Trujillo Magnenat la llenan de magnificencia y
       esplendor.
     </p>
     <p className="content justified">
