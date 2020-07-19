@@ -62,8 +62,12 @@ function Review() {
                     Disponible en: {tds.availableAt} <br />
                   </span>
                 )}
+                {tds?.reviewedBy && (
+                  <span className="white">
+                    Reseña por: {tds.reviewedBy} <br />
+                  </span>
+                )}
               </p>
-              {tds?.reviewedBy && <p className="content white">Reseña por: {tds.reviewedBy}</p>}
             </div>
           </div>
           <div className="pure-u-1 pure-u-md-1-2">{review.mainParagraph}</div>
