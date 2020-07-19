@@ -8,8 +8,8 @@ export const mainParagraph = (
     </p>
     <p className="content justified">
       Quizá sea por eso que dedicó varios de sus escritos para niños a narrar episodios del descubrimiento de América,
-      como “Los animales que ayudaron al almirante” (Vida, 1952), “El niño que miraba al mar” (Cuentos tricolores, 1967)
-      o “Los papagayos de don Cristóforo” (Cambam Bali, 1942).
+      como “Los animales que ayudaron al almirante” (<i>Vida</i>, 1952), “El niño que miraba al mar” (
+      <i>Cuentos tricolores</i>, 1967) o “Los papagayos de don Cristóforo” (<i>Cambam Bali</i>, 1942).
     </p>
     <p className="content justified">
       Como se ve a lo largo de su obra, Don Os elegía narrar las historias no desde las voces oficiales y victoriosas,
