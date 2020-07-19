@@ -45,7 +45,7 @@ export const sections = (
         voz de un personaje a quien nunca se le hubiera escuchado desde la llamada Historia oficial.
       </p>
       <p className="content justified">
-        En Rataplán encontramos dos rasgos sobresalientes de la producción literaria e histórica de Oswaldo Díaz Díaz.
+        En "Rataplán" encontramos dos rasgos sobresalientes de la producción literaria e histórica de Oswaldo Díaz Díaz.
         Por un lado, es usual que en su literatura infantil trabaje como línea temática la historia de Colombia y se
         enfoque en episodios de la Independencia.
       </p>
@@ -57,7 +57,7 @@ export const sections = (
       </p>
       <p className="content justified">
         “Rataplán” fue llevada al radioteatro por el grupo escénico juvenil dirigido por José Agustín Pulido Téllez,
-        transmitido por la Radiodifusora Nacional de Colombia, en la serie Radioteatro para muchachos.
+        transmitido por la Radiodifusora Nacional de Colombia, en la serie <i>Radioteatro para muchachos</i>.
       </p>
     </div>
   </div>
