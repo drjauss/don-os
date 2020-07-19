@@ -21,7 +21,7 @@ function Subscription() {
             </span>
           </div>
           <button className="content" type="submit">
-            Suscribirme
+            Suscríbete
           </button>
         </form>
       </div>
