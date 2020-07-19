@@ -1,5 +1,12 @@
 import React from "react";
 
+export const caricaturaSubtitle = (
+  <div>
+    De Oswaldo Díaz Díaz, publicada en la revista estudiantil del Gimnasio Moderno <i>El Aguilucho</i>, No. 115, en
+    junio de 1954
+  </div>
+);
+
 export const caricaturaContent = (
   <div>
     <p className="content justified">
@@ -8,9 +15,9 @@ export const caricaturaContent = (
       Oswaldo Díaz Díaz
     </p>
     <p className="content justified">
-      Fue profesor de la Escuela Nacional de Comercio en 1936. En 1941 trabajó en el Colegio Nacional de San Bartolomé
-      como secretario, y luego fue nombrado vicerrector. Entre 1944 y 1947 fue el vicerrector del Gimnasio Moderno,
-      donde trabajó por casi dos décadas.
+      Don Os fue profesor de la Escuela Nacional de Comercio en 1936. En 1941 trabajó en el Colegio Nacional de San
+      Bartolomé como secretario, y luego fue nombrado vicerrector. Entre 1944 y 1947 fue el vicerrector del Gimnasio
+      Moderno, donde trabajó por casi dos décadas como profesor y director del Club Dramático.
     </p>
     <p className="content justified">
       Fue nombrado Director de Enseñanza Secundaria en el Ministerio de Educación Nacional, pero renunció y fundó el
@@ -21,10 +28,6 @@ export const caricaturaContent = (
       Presentación – Chapinero, Centro de las Mercedes y el Colegio Elviras Lleras. Y en la Universidad de los Andes, la
       Pontificia Universidad Javeriana, la Universidad Nacional Pedagógica Femenina y en el Instituto Universitario de
       Historia de Colombia.
-    </p>
-    <p className="content justified">
-      El 2 de noviembre de 1950 fue nombrado miembro de la Academia Colombiana de Historia y en 1955, el 27 de mayo,
-      como miembro número.
     </p>
   </div>
 );

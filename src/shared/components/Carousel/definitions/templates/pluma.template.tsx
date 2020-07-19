@@ -9,7 +9,7 @@ export const plumaContent = (
     </p>
     <p className="content justified">
       Se mudó a temprana edad a Bogotá y estudió primaria en el colegio de La Presentación. Allí conoció a uno de sus
-      mejores amigos: el poeta Arturo Camacho Ramírez El 15 de diciembre de 1927 obtuvo el título de bachiller en el
+      mejores amigos: el poeta Arturo Camacho Ramírez. El 15 de diciembre de 1927 obtuvo el título de bachiller en el
       Instituto de La Salle.
     </p>
     <p className="content justified">

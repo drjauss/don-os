@@ -1,5 +1,11 @@
 import React from "react";
 
+export const revistaVidaTitle = (
+  <div>
+    La Revista <i>Vida</i>
+  </div>
+);
+
 export const revistaVidaContent = (
   <div>
     <p className="content justified">
@@ -7,11 +13,14 @@ export const revistaVidaContent = (
       Colombiana de Seguros.
     </p>
     <p className="content justified">
-      En esta revista mensual, Don Os publicó por primera vez muchos de los que fueron sus cuentos más destacados.
+      En esta revista mensual, Don Os publicó por primera vez muchos de los que fueron sus cuentos más destacados y
+      textos de no ficción para niños.
     </p>
     <p className="content justified">
-      Muchos de sus cuentos se encuentran publicados también en antologías como
-      <em>El país de Lilac, Otra vez en Lilac, Retorno a Lilac, Cuentos Tricolores y Cambam Bali</em>.
+      Muchos de sus cuentos se encuentran publicados en antologías como <i>El país de Lilac</i> (1938),{" "}
+      <i>Otra vez en Lilac</i> (1942), <i>Cuentos tricolores</i> (1967), <i>Cambam Bali</i> (1973) y{" "}
+      <i>Retorno a Lilac</i>
+      (1987).
     </p>
   </div>
 );

@@ -1,5 +1,11 @@
 import React from "react";
 
+export const revistaVueloTitle = (
+  <div>
+    La revista <i>Vuelo</i>
+  </div>
+);
+
 export const revistaVueloContent = (
   <div>
     <p className="content justified">

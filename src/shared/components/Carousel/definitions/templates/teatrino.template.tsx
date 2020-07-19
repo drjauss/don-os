@@ -1,9 +1,15 @@
 import React from "react";
 
+export const teatrinoTitle = (
+  <div>
+    Programa de <i>El pleito del queso</i>
+  </div>
+);
+
 export const teatrinoContent = (
   <div>
     <p className="content justified">
-      El teatro fue, quizá, una de las formas de escritura más naturales para Oswaldo Díaz Díaz. “... su fervorosa
+      El teatro fue, quizá, una de las formas de escritura más naturales para Oswaldo Díaz Díaz. “...su fervorosa
       inteligencia ha encontrado en el teatro su más afortunada forma de expresión. Trabaja en él con pasión y con
       admirable seguridad. Maneja diestramente la técnica dramática”. <em>Revista de las Indias</em>, 1941.
     </p>
