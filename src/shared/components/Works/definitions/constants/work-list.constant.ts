@@ -18,6 +18,7 @@ import { comoEraHansPublishedAt } from "../templates/no-ficcion/others/como-era-
 import { timonelPublishedAt } from "../templates/radioteatro/timonel/technical-details";
 import { poesiasInfantilesPomboPublishedAt } from "../templates/no-ficcion/others/poesias-infantiles-pombo/technical-details";
 import { cargadorDeSalPublishedAt } from "../templates/radioteatro/cargador-de-sal/techincal-details";
+import { animalesAlmirantePublishedAt } from "../templates/no-ficcion/others/animales-que-ayudaron-almirante/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -143,11 +144,13 @@ export const workList: Array<Work> = [
     title: "Los animales que ayudaron al almirante",
     technicalDetails: {
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Revista Vida, No. 53, 1952",
+      publishedAt: animalesAlmirantePublishedAt,
       publishingLocation: "Bogotá",
-      availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango",
+      availableAt: "Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "Zully Pardo",
     },
-    category: WorkCategory.NO_FICCION,
+    category: WorkCategory.CUENTO,
     slug: "descubrimiento-de-america",
   },
   {
