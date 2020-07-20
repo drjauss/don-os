@@ -48,7 +48,6 @@ export const bottomParagraph = (
       Y es muy especial, además, porque es un texto que a la luz de hoy une a más de tres generaciones y las vincula a
       través de algo que nos atañe a todos: la infancia y el tiempo libre.
     </p>
-    <p className="content justified">Por: Zully Pardo</p>
   </div>
 );
 

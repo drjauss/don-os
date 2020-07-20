@@ -21,6 +21,7 @@ import { cargadorDeSalPublishedAt } from "../templates/radioteatro/cargador-de-s
 import { animalesAlmirantePublishedAt } from "../templates/no-ficcion/others/animales-que-ayudaron-almirante/technical-details";
 import { aspectoDeLaLiteraturaPublishedAt } from "../templates/no-ficcion/aspecto-literatura-infantil/technical-details";
 import { zuhePublishedAt } from "../templates/cuento/others/zuhe/technical-details";
+import { juegosPublishedAt } from "../templates/no-ficcion/juegos-de-antano/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -193,11 +194,13 @@ export const workList: Array<Work> = [
     name: "Diversiones para niños, los juegos de antaño",
     title: "Juegos de antaño",
     technicalDetails: {
-      title: "Juegos de antaño (no ficción)",
+      title: "Juegos de antaño",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Revista Vida¸No. 32-33, 1949",
+      publishedAt: juegosPublishedAt,
       publishingLocation: "Bogotá",
-      availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango",
+      availableAt: "Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      genre: WorkCategory.NO_FICCION,
+      reviewedBy: "Zully Pardo",
     },
     featured: true,
     illustration: imgJuegosDeAntano,
