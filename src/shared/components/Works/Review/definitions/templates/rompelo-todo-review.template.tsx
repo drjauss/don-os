@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Así como otros cuentos que hacen parte del repertorio literario como Cenicienta o Blancanieves, este también habla
-      de la historia de una niña que vivía con su madrastra.
+      Así como otros cuentos que hacen parte del repertorio literario como <i>Cenicienta</i> o <i>Blancanieves</i>, este
+      también habla de la historia de una niña que vivía con su madrastra.
     </p>
     <p className="content justified">
       Marta Rómpelo-Todo había perdido a su madre, quien la cuidaba desde el cielo, por lo que debía vivir con doña
@@ -62,14 +63,14 @@ export const sections = (
         colombianas: el sembrado de perejil en el patio o el molinillo para romper la panela.
       </p>
       <p className="content justified">
-        Además, en Rómpelo-Todo hay una conciencia narrativa explícita donde se indica que se cuentan hechos tristes
+        Además, en "Rómpelo-Todo" hay una conciencia narrativa explícita donde se indica que se cuentan hechos tristes
         para poder entender la verdadera maravilla del cuento.
       </p>
       <p className="content justified">
         Es interesante la naturalidad con la que se describen escenas muy crueles, lo que para algunos podría suponer no
         ser aptas para niños. Para Don Os estas situaciones hacen parte de la realidad de algunos niños, y él asume que
         están en la capacidad de entender cuando las palabras van acompañadas de un poco de fantasía, tal como sucede en
-        el cuento “Pomarrosa en el parque”.
+        el cuento <Link to="/obra/pomarrosa-en-el-parque?color=orange">“Pomarrosa en el parque”</Link>.
       </p>
     </div>
   </div>

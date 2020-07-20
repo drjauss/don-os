@@ -23,6 +23,7 @@ import { aspectoDeLaLiteraturaPublishedAt } from "../templates/no-ficcion/aspect
 import { zuhePublishedAt } from "../templates/cuento/others/zuhe/technical-details";
 import { juegosPublishedAt } from "../templates/no-ficcion/juegos-de-antano/technical-details";
 import { pomarrosaPublishedAt } from "../templates/cuento/others/pomarrosa/technical-details";
+import { rompeloTodoPublishedAt } from "../templates/cuento/rompelo-todo/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -231,11 +232,12 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "Rómpelo-Todo",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Otra vez en Lilac (1942), Cambam Bali (1973) y Retorno a Lilac  (1987)",
+      publishedAt: rompeloTodoPublishedAt,
       publishingLocation: "Bogotá",
       genre: WorkCategory.CUENTO,
       availableAt:
         "Biblioteca Pontificia Universidad Javeriana, Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      reviewedBy: "María Camila Monroy S.",
     },
     illustration: imgRompeloTodo,
     category: WorkCategory.CUENTO,
