@@ -22,6 +22,7 @@ import { animalesAlmirantePublishedAt } from "../templates/no-ficcion/others/ani
 import { aspectoDeLaLiteraturaPublishedAt } from "../templates/no-ficcion/aspecto-literatura-infantil/technical-details";
 import { zuhePublishedAt } from "../templates/cuento/others/zuhe/technical-details";
 import { juegosPublishedAt } from "../templates/no-ficcion/juegos-de-antano/technical-details";
+import { pomarrosaPublishedAt } from "../templates/cuento/others/pomarrosa/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -214,10 +215,11 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "Pomarrosa en el parque",
       author: "Oswaldo Díaz Díaz",
-      publishedAt:
-        "Rin Rin, No. 8. Revista infantil del Ministerio de Educación (1937), Otra vez en Lilac (1942), Cambam Bali (1973) y Retorno a Lilac (1987)",
+      publishedAt: pomarrosaPublishedAt,
       publishingLocation: "Bogotá",
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "María Camila Monroy S.",
     },
     category: WorkCategory.CUENTO,
     slug: "pomarrosa-en-el-parque",
