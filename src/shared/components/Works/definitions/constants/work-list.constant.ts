@@ -28,6 +28,7 @@ import { laLagunaEncantadaPublishedAT } from "../templates/cuento/others/la-lagu
 import { matildeAnarayPublishedAt } from "../templates/cuento/matilde-anaray/technical-details";
 import { diarioDeUnGorrionPublishedAt } from "../templates/cuento/others/diario-de-un-gorrion/technical-details";
 import { paisDeLilacPublishedAt } from "../templates/cuento/el-pais-de-lilac/technical-details";
+import { cambamBaliPublishedAt } from "../templates/cuento/others/cambam-bali/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -320,9 +321,11 @@ export const workList: Array<Work> = [
     title: "Cambam Bali",
     technicalDetails: {
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "El país de Lilac (1938) y Retorno a Lilac (1987)",
+      publishedAt: cambamBaliPublishedAt,
       publishingLocation: "Bogotá",
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "María Camila Monroy S.",
     },
     illustration: imgCambamBali,
     category: WorkCategory.CUENTO,
