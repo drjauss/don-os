@@ -9,6 +9,8 @@ import imgJuegosDeAntano from "../../../../../images/illustrations/juegos-de-ant
 import imgRompeloTodo from "../../../../../images/illustrations/rompelo-todo-min.png";
 import imgMatildeAnaray from "../../../../../images/illustrations/Matilde-min.png";
 import imgElPaisDeLilac from "../../../../../images/illustrations/el-pais-de-lilac-min.png";
+// import imgZuhe from "../../../../../images/illustrations/Zuhe-min.png";
+// import imgPoesiasRafaelPombo from "../../../../../images/illustrations/Las-poesias-de-Rafael-Pombo-min.png";
 import imgRayosYCentellas from "../../../../../images/illustrations/Rayos-min.png";
 import imgCambamBali from "../../../../../images/illustrations/Cambam-bali-min.png";
 import { blondinettePublishedAt } from "../templates/teatro/blondinette/technical-details";
@@ -128,6 +130,7 @@ export const workList: Array<Work> = [
       genre: WorkCategory.NO_FICCION,
       reviewedBy: "María Camila Monroy S.",
     },
+    // illustration: imgPoesiasRafaelPombo,
     category: WorkCategory.NO_FICCION,
     slug: "poesias-infantiles-rafael-pombo",
   },
@@ -194,6 +197,7 @@ export const workList: Array<Work> = [
       genre: WorkCategory.CUENTO,
       reviewedBy: "Zully Pardo",
     },
+    // illustration: imgZuhe,
     category: WorkCategory.CUENTO,
     slug: "zuhe",
   },
