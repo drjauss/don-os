@@ -19,6 +19,8 @@ import { timonelPublishedAt } from "../templates/radioteatro/timonel/technical-d
 import { poesiasInfantilesPomboPublishedAt } from "../templates/no-ficcion/others/poesias-infantiles-pombo/technical-details";
 import { cargadorDeSalPublishedAt } from "../templates/radioteatro/cargador-de-sal/techincal-details";
 import { animalesAlmirantePublishedAt } from "../templates/no-ficcion/others/animales-que-ayudaron-almirante/technical-details";
+import { aspectoDeLaLiteraturaPublishedAt } from "../templates/no-ficcion/aspecto-literatura-infantil/technical-details";
+import { zuhePublishedAt } from "../templates/cuento/others/zuhe/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -158,11 +160,13 @@ export const workList: Array<Work> = [
     name: "Los buenos libros para niños",
     title: "Aspecto de la literatura infantil",
     technicalDetails: {
-      title: "Aspecto de la literatura infantil (ensayo)",
+      title: "Aspecto de la literatura infantil",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Revista de Indias, Bogotá Vol.8 no.26 (Feb.1941)",
+      publishedAt: aspectoDeLaLiteraturaPublishedAt,
       publishingLocation: "Bogotá",
-      availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango",
+      availableAt: "Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      genre: WorkCategory.NO_FICCION,
+      reviewedBy: "Zully Pardo",
     },
     featured: true,
     illustration: imgAspectoDeLaLiteraturaInfantil,
@@ -174,10 +178,12 @@ export const workList: Array<Work> = [
     name: "Zuhé",
     title: "Zuhé, el caracol más ágil de los pascas",
     technicalDetails: {
-      title: "Zuhé",
-      publishedAt: "Cuentos tricolores (1967)",
+      title: "Zuhé, el caracol más ágil de los pascas",
+      publishedAt: zuhePublishedAt,
       publishingLocation: "Bogotá",
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "Zully Pardo",
     },
     category: WorkCategory.CUENTO,
     slug: "zuhe",

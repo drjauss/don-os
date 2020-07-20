@@ -5,12 +5,11 @@ export const mainParagraph = (
     <p className="content justified">
       Oswaldo Díaz Díaz fue el primer colombiano en publicar un ensayo en el que se reflexionara detenidamente y con
       suma profundidad sobre la literatura infantil. Se trata de “Aspecto de la literatura infantil”, un texto breve
-      incluido en el número 26 de la Revista de Indias de 1941.
+      incluido en el número 26 de la <i>Revista de las Indias</i> de 1941.
     </p>
     <p className="content justified">
-      Para este entonces, Don Os ya había publicado su primera antología de cuentos infantiles titulada El país de Lilac
-      (1938) y los niños colombianos ya habían tenido la oportunidad de leer revistas infantiles como Rin Rin y
-      Chanchito.
+      Para este entonces, Don Os ya había publicado su primera antología de cuentos infantiles titulada{" "}
+      <i>El país de Lilac, Rin Rin</i> y <i>Chanchito</i>.
     </p>
     <p className="content justified">
       La tradición de literatura infantil local se construía sobre el legado de Pombo, con voces como las de Víctor
