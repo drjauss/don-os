@@ -29,6 +29,7 @@ import { matildeAnarayPublishedAt } from "../templates/cuento/matilde-anaray/tec
 import { diarioDeUnGorrionPublishedAt } from "../templates/cuento/others/diario-de-un-gorrion/technical-details";
 import { paisDeLilacPublishedAt } from "../templates/cuento/el-pais-de-lilac/technical-details";
 import { cambamBaliPublishedAt } from "../templates/cuento/others/cambam-bali/technical-details";
+import { rayosYCentellasPublishedAt } from "../templates/cuento/rayos-y-centellas/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -338,10 +339,11 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "Rayos y centellas (cuento)",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "El país de Lilac (1938)",
+      publishedAt: rayosYCentellasPublishedAt,
       publishingLocation: "Bogotá",
       genre: WorkCategory.CUENTO,
       availableAt: "Biblioteca Nacional de Colombia",
+      reviewedBy: "Zully Pardo",
     },
     featured: true,
     illustration: imgRayosYCentellas,

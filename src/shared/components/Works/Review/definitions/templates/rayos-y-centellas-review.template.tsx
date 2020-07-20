@@ -13,7 +13,7 @@ export const mainParagraph = (
     </p>
     <p className="content justified">
       Este breve cuento de piratas empieza con mucho barullo en la mitad del mar. Los piratas, como es de esperarse, van
-      en búsqueda del tesoro del malvado Malasentrañas y, tras estudiar varias veces el mapa, llegan a la Isla de
+      en busca del tesoro del malvado Malasentrañas y, tras estudiar varias veces el mapa, llegan a la Isla de
       Tormentas. Entonces hay un detalle muy importante que determina todo: la única forma para saber dónde están las
       riquezas es tomar una canilla de muerto para medir la distancia de treinta y dos longitudes desde el sepulcro del
       tuerto O’Neil hasta el lugar indicado en el mapa.
@@ -35,10 +35,10 @@ export const bottomParagraph = (
       sí?
     </p>
     <p className="content justified">
-      Este es uno de los primeros cuentos infantiles publicados por Oswaldo Díaz Díaz y hace parte de la antología El
-      país de Lilac de 1938. Es cuento muy particular por varias razones: por un lado, por el uso del humor negro y la
-      fantasía con el que le da un giro inesperado a la típica historia de piratas. Por otro lado, porque es una
-      historia que se sale del molde de los cuentos para niños que se escribían en las décadas de 1930 y 1940 en
+      Este es uno de los primeros cuentos infantiles publicados por Oswaldo Díaz Díaz y hace parte de la antología{" "}
+      <i>El país de Lilac</i> de 1938. Es cuento muy particular por varias razones: por un lado, por el uso del humor
+      negro y la fantasía con los que da un giro inesperado a la típica historia de piratas. Por otro lado, porque es
+      una historia que se sale del molde de los cuentos para niños que se escribían en las décadas de 1930 y 1940 en
       Colombia, cuando se pensaba que la única función de los cuentos infantiles era dejar una enseñanza.
     </p>
     <p className="content justified">
