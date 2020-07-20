@@ -26,6 +26,8 @@ import { pomarrosaPublishedAt } from "../templates/cuento/others/pomarrosa/techn
 import { rompeloTodoPublishedAt } from "../templates/cuento/rompelo-todo/technical-details";
 import { laLagunaEncantadaPublishedAT } from "../templates/cuento/others/la-laguna-encantada/technical-details";
 import { matildeAnarayPublishedAt } from "../templates/cuento/matilde-anaray/technical-details";
+import { diarioDeUnGorrionPublishedAt } from "../templates/cuento/others/diario-de-un-gorrion/technical-details";
+import { paisDeLilacPublishedAt } from "../templates/cuento/el-pais-de-lilac/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -284,10 +286,12 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "Diario de un gorrión",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Otra vez en Lilac (1942), Cambam Bali (1973) y Retorno a Lilac (1987)",
+      publishedAt: diarioDeUnGorrionPublishedAt,
       publishingLocation: "Bogotá",
       availableAt:
         "Biblioteca de la Pontificia Universidad Javeriana, Biblioteca Nacional y Biblioteca Luis Ángel Arango",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "María Camila Monroy S.",
     },
     category: WorkCategory.CUENTO,
     slug: "diario-de-un-gorrion",
@@ -299,10 +303,11 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "El país de Lilac",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "El país de Lilac (1938) y Retorno a Lilac (1987)",
+      publishedAt: paisDeLilacPublishedAt,
       publishingLocation: "Bogotá",
       genre: WorkCategory.CUENTO,
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca Luis Ángel Arango",
+      reviewedBy: "María Camila Monroy S.",
     },
     featured: true,
     illustration: imgElPaisDeLilac,

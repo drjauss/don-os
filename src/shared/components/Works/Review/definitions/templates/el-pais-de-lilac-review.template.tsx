@@ -62,8 +62,8 @@ export const sections = (
       <h3 className="review-title subtitle">Lilac: el lugar de Don Os</h3>
       <p className="content justified">
         Lilac es un lugar insignia para hablar de Oswaldo Díaz Díaz. Aparece en este relato, que fue publicado por
-        primera vez en una antología de cuentos que lleva el mismo nombre. Posteriormente apareció Retorno a Lilac y
-        Otra vez en Lilac.
+        primera vez en una antología de cuentos que lleva el mismo nombre. Posteriormente apareció{" "}
+        <i>Retorno a Lilac</i> y <i>Otra vez en Lilac</i>.
       </p>
       <p className="content justified">
         Pero Lilac no es solo un asunto de nombres o títulos, es realmente una concepción de infancia, un mundo para
