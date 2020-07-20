@@ -38,7 +38,7 @@ export const bottomParagraph = (
 export const sections = (
   <div className="sectionsReview">
     <div className="sectionReview">
-      <h3 className="review-title subtitle">Dos versiones, una pastora un acto heroico</h3>
+      <h3 className="review-title subtitle">Dos versiones, una pastorcita, un acto heroico</h3>
       <p className="content justified">
         Contrario a la patriota historia que se cuenta por estos días en la que la niña (a veces de once años, en otros
         relatos de trece) lidera a un grupo de patriotas para que se desprendan de sus ropas y se las entreguen al
@@ -62,8 +62,8 @@ export const sections = (
       </p>
       <p className="content justified">
         Sin embargo, la niña no tiene alternativa. Entrega sus ropas y la historia, que podría concluir en este gesto de
-        sacrificio concluye, más bien, con un cierre a lo Hans Christian Andersen, en el que el valor de las cosas en la
-        vida está más allá de los objetos:
+        sacrificio, concluye, más bien, con un cierre a lo Hans Christian Andersen, en el que el valor de las cosas en
+        la vida está más allá de los objetos:
       </p>
       <p className="content justified">
         “Matilde Anaray tiritaba de frío en las largas horas de su aislamiento, pero en su corazón ardía una hoguera que

@@ -24,6 +24,8 @@ import { zuhePublishedAt } from "../templates/cuento/others/zuhe/technical-detai
 import { juegosPublishedAt } from "../templates/no-ficcion/juegos-de-antano/technical-details";
 import { pomarrosaPublishedAt } from "../templates/cuento/others/pomarrosa/technical-details";
 import { rompeloTodoPublishedAt } from "../templates/cuento/rompelo-todo/technical-details";
+import { laLagunaEncantadaPublishedAT } from "../templates/cuento/others/la-laguna-encantada/technical-details";
+import { matildeAnarayPublishedAt } from "../templates/cuento/matilde-anaray/technical-details";
 
 export const workList: Array<Work> = [
   {
@@ -250,9 +252,11 @@ export const workList: Array<Work> = [
     technicalDetails: {
       title: "La laguna encantada",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Rin Rin, Revista infantil del Ministerio de Educación,  No. 13 (1939) y Otra vez en Lilac (1942)",
+      publishedAt: laLagunaEncantadaPublishedAT,
       publishingLocation: "Bogotá",
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana",
+      genre: WorkCategory.CUENTO,
+      reviewedBy: "María Camila Monroy S.",
     },
     category: WorkCategory.CUENTO,
     slug: "la-laguna-encantada",
@@ -262,10 +266,12 @@ export const workList: Array<Work> = [
     name: "Olor a vellón y romero",
     title: "Matilde Anaray",
     technicalDetails: {
-      title: "Matilde Anaray, la pastorcita de Socha (cuento)",
+      title: "Matilde Anaray, la pastorcita de Socha",
       author: "Oswaldo Díaz Díaz",
-      publishedAt: "Revista Vida No. 39, 1950. Cuentos Tricolores, 1967",
-      availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango, Biblioteca Universidad Javeriana",
+      publishedAt: matildeAnarayPublishedAt,
+      availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango y Biblioteca Universidad Javeriana",
+      reviewedBy: "Zully Pardo",
+      genre: WorkCategory.CUENTO,
     },
     illustration: imgMatildeAnaray,
     category: WorkCategory.CUENTO,
