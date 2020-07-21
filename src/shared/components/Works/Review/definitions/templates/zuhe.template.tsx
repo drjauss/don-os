@@ -3,18 +3,20 @@ import React from "react";
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Los pixies, hadas, sirenas, brownies, leprechauns y ogros son la esencia de un corto texto en el que Oswaldo Díaz
-      Díaz describe brevemente cuáles son las características de estos seres fantásticos, cómo lucen, dónde viven,
-      cuáles son sus travesuras favoritas y a qué dedican sus días.
+      Entre los pascas no hay otro joven como Zuhé. A sus catorce años, conoce los secretos de los reyes y los
+      sacerdotes indígenas: Sabe callar y, como nadie, sabe escuchar. Tiene la paciencia y la quietud de los mejores
+      cazadores, la resistencia de un animalito de monte, la fuerza y sagacidad de un guerrero.
     </p>
     <p className="content justified">
-      En este texto dirigido a los niños, advierte que es mejor cuidar de los hermanitos pequeños si se está cerca de la
-      presencia de un troll que, aunque sea amable y complaciente, no puede evitar llevarse consigo lo que le es ajeno,
-      especialmente si se trata de un niño pequeño.
+      Y Zuhé, a quien también llaman Cupupca –caracol–, es el protagonista de una de las historias juveniles más
+      extensas que Oswaldo Díaz Díaz publicó y en la que, como es propio de este autor, se enaltece la voz de los héroes
+      silenciados.
     </p>
     <p className="content justified">
-      También señala que cuando los niños y niñas alemanes se equivocan en un paso de danza, saben que es por obra de
-      las nixies, que adoran la música y el canto, y enredan los pies de los pequeños bailarines.
+      ¿Qué habría sido de la conquista española si el joven Cupupca no hubiera llevado el mensaje de Lázaro Fonte a
+      Gonzalo Jiménez de Quesada, donde advierte que Nicolás de Federmann y una expedición alemana se acercan por el
+      oriente? “Tal vez sin estos acontecimientos la conquista del Nuevo Reino de Granada hubiera sido obra de alemanes
+      y flamencos y no de españoles” (p. 185), tantea Don Os.
     </p>
   </div>
 );
@@ -22,31 +24,57 @@ export const mainParagraph = (
 export const bottomParagraph = (
   <div className="bottomParagraph">
     <p className="content justified">
-      Díaz Díaz no solo dedica su escrito a los conocidos duendes y hadas europeos, sino que recuerda a los seres
-      fantásticos del Medio Oriente que aparecen en <i>Las mil y una noches</i>, como los jinnis, los afreets y las
-      peris.
-    </p>
-    <p className="content justified">
-      Y sigue su recorrido por el mundo real y el imaginario, recordando a los animales propios del país de las hadas
-      como los dragones, los grifos y los hipogrifos; y a aquellos que narra la mitología griega: el minotauro, los
-      centauros y unicornios, entre muchos otros.
-    </p>
-    <p className="content justified">
-      Llama la atención cómo se enlazan en este texto tres hechos: el estreno de la película <i>Peter Pan</i>, en 1953;
-      la lectura del libro <i>The Fairy Dictionary</i> (El diccionario de las hadas) de George M. Richards (McMillan,
-      1940); y un inicio en el que nuestro autor busca crear un vínculo entre la fantasía europea y la colombiana.
-    </p>
-    <p className="content justified">
-      Parece que la pequeña Campanita de la película de <i>Peter Pan</i> despertó la curiosidad en este autor, quien
-      buscó información sobre estos mundos imaginarios e intentó establecer un vínculo entre los duendes locales y los
-      elfos.
-    </p>
-    <p className="content justified">
-      Aunque no intente encontrar otras equivalencias, el texto da buena cuenta de los seres de esos mundos imaginarios
-      en donde reinan "Oberón y Titania, acompañados por el más listo y pícaro de los duendes, Puck; como lo supo muy
-      bien Shakespeare al escribir su <i>Sueño de una noche de verano.</i>
+      Pero esa, en todo caso, no es una buena noticia para el joven pasca. “Para él tales cosas solo significaban que el
+      poderío extranjero se hacía más fuerte en el valle y que la independencia de los indígenas estaba cada vez más
+      comprometida” (185).
     </p>
   </div>
 );
 
-export const sections = <div className="sectionsReview"></div>;
+export const sections = (
+  <div className="sectionsReview">
+    <div className="sectionReview">
+      <h3 className="review-title subtitle">Un cuento en doce secciones</h3>
+      <p className="content justified">
+        Generalmente las historias infantiles y juveniles de Oswaldo Díaz Díaz no superaban las cuatro páginas, pero con
+        “Zuhé” el autor se toma su tiempo en contextualizar a los lectores y mostrarles distintos momentos de la
+        conquista.
+      </p>
+      <p className="content justified">
+        Un ejército de más de setecientos soldados sale de Santa Marta, pero apenas llegan ciento sesenta y seis a las
+        tierras de lo que hoy conocemos como Cundinamarca.
+      </p>
+      <p className="content justified">
+        Sin demasiados detalles, centrando la narración en las acciones, Don Os señala de dónde venía Cupupca, cómo lo
+        entrenaron y a qué tuvo que renunciar para convertirse en uno de los chicos más valerosos de su pueblo.
+      </p>
+      <p className="content justified">
+        Nos muestra las rencillas entre españoles, las trampas, los acercamientos pacíficos a los pueblos nativos y el
+        posterior sometimiento de estos. Y narra con detalle la historia de Lázaro Font, su amor con la joven muisca
+        Suamena (Zoratama, figura en otras fuentes) y la manera como Zuhé decide ayudarlos.
+      </p>
+    </div>
+    <div className="sectionReview">
+      <h3 className="review-title subtitle">Arte, historia y ficción</h3>
+      <p className="content justified">
+        <i>Cuentos tricolores</i> fue publicado en 1967 con el ánimo de que los niños colombianos tuvieran en sus manos
+        un libro que despertara su curiosidad por los temas de la patria. No hay otros libros colombianos con una
+        edición tan bellamente cuidada como esta, en la que Sergio Trujillo Magnenat aporta sus ilustraciones.
+      </p>
+      <p className="content justified">
+        Dice el editor: “Ambos presentan al mundo infantil situaciones, hechos y nombres de la historia nacional, con
+        leve colorido de leyenda, sin apartarse de la certidumbre y la veracidad histórica”.
+      </p>
+      <p className="content justified">
+        Y es que hay que mencionar que Oswaldo Díaz Díaz fue un gran historiador por vocación (no en vano escribió dos
+        de los volúmenes de la <i>Historia extensa de Colombia</i>), pero también se consideró a sí mismo escritor de
+        literatura infantil. En un cuento como Zuhé, este autor equilibra esas dos facetas.
+      </p>
+      <p className="content justified">
+        Pues no hay que dudar que, para llegar al punto de redactar este cuento, Don Os visitó muchos archivos, consultó
+        diversas fuentes y recreó situaciones desde un punto de vista único, en el que el papel de un indígena como Zuhé
+        –un poco a su pesar– es determinante para la historia de Colombia.
+      </p>
+    </div>
+  </div>
+);

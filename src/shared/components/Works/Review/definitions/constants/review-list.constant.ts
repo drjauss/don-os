@@ -14,14 +14,14 @@ import * as DiccionarioDeLasHadasReviewTemplate from "../templates/diccionario-d
 import * as NabaReviewTemplate from "../templates/naba-review.template";
 import * as LaGranCampanaReviewTemplate from "../templates/la-gran-campana-review.template";
 import * as LaNinaDeSieteTrojesReviewTemplate from "../templates/la-nina-de-siete-trojes-review.template";
-// christianAndersenTemplate
-// rafaelPombo
-// descubrimientoDeAmerica
-// zuhe
-// pomarrosa
-// la laguna encantada
-// diario de un gorrion
-// cambam bali
+import * as ComoEraChristianReviewTemplate from "../templates/como-era-christian-andersen.template";
+import * as PoesiasRafaelPomboReviewTemplate from "../templates/poesias-infantiles-rafael-pombo.template";
+import * as descubrimientoDeAmericaReviewTemplate from "../templates/descubrimiento-de-america.template";
+import * as zuheReviewTemplate from "../templates/zuhe.template";
+import * as pomarrosaReviewTemplate from "../templates/pomarrosa-en-el-parque.template";
+import * as lagunaEncantadaReviewTemplate from "../templates/la-laguna-encantada.template";
+import * as diarioDeUnGorrionReviewTemplate from "../templates/diario-de-un-gorrion.template";
+import * as cambamBaliReviewTemplate from "../templates/cambam-bali.template";
 
 export const reviews: Reviews = {
   blondinette: {
@@ -34,49 +34,49 @@ export const reviews: Reviews = {
     ...RataplanReviewTemplate,
   },
   "como-era-christian-andersen": {
-    ...RataplanReviewTemplate,
+    ...ComoEraChristianReviewTemplate,
   },
   timonel: {
     ...TimonelReviewTemplate,
   },
   "poesias-infantiles-rafael-pombo": {
-    ...RataplanReviewTemplate,
+    ...PoesiasRafaelPomboReviewTemplate,
   },
   "el-cargador-de-sal": {
     ...CargadorDeSalReviewTemplate,
   },
   "descubrimiento-de-america": {
-    ...RataplanReviewTemplate,
+    ...descubrimientoDeAmericaReviewTemplate,
   },
   "aspecto-de-la-literatura-infantil": {
     ...AspectoDeLaLiteraturaReviewTemplate,
   },
   zuhe: {
-    ...RataplanReviewTemplate,
+    ...zuheReviewTemplate,
   },
   "juegos-de-antano": {
     ...JuegosDeAntanoReviewTemplate,
   },
   "pomarrosa-en-el-parque": {
-    ...RataplanReviewTemplate,
+    ...pomarrosaReviewTemplate,
   },
   "rompelo-todo": {
     ...RompeloTodoReviewTemplate,
   },
   "la-laguna-encantada": {
-    ...RataplanReviewTemplate,
+    ...lagunaEncantadaReviewTemplate,
   },
   "matilde-anaray": {
     ...MatildeAnarayReviewTemplate,
   },
   "diario-de-un-gorrion": {
-    ...RataplanReviewTemplate,
+    ...diarioDeUnGorrionReviewTemplate,
   },
   "el-pais-de-lilac": {
     ...ElPaisDeLilacReviewTemplate,
   },
   "cambam-bali": {
-    ...RataplanReviewTemplate,
+    ...cambamBaliReviewTemplate,
   },
   "rayos-y-centellas": {
     ...RayosYCentellasReviewTemplate,

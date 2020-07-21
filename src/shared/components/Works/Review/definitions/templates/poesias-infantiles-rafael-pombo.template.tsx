@@ -1,20 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Los pixies, hadas, sirenas, brownies, leprechauns y ogros son la esencia de un corto texto en el que Oswaldo Díaz
-      Díaz describe brevemente cuáles son las características de estos seres fantásticos, cómo lucen, dónde viven,
-      cuáles son sus travesuras favoritas y a qué dedican sus días.
+      Si bien Oswaldo Díaz Díaz no tuvo una educación académica sobre aspectos formales y teóricos de la literatura, sí
+      es evidente su estudio empírico y su capacidad de análisis, además de la pasión por la escritura para niños que
+      inició siendo un hobby y se convirtió en una de sus actividades principales.
     </p>
     <p className="content justified">
-      En este texto dirigido a los niños, advierte que es mejor cuidar de los hermanitos pequeños si se está cerca de la
-      presencia de un troll que, aunque sea amable y complaciente, no puede evitar llevarse consigo lo que le es ajeno,
-      especialmente si se trata de un niño pequeño.
+      En esta ocasión, Díaz Díaz nos sorprende con un artículo sobre las fábulas y las poesías del reconocido autor
+      colombiano Rafael Pombo, y en este texto expone y sustenta sus ideas alrededor de las bondades del trabajo del
+      poeta, y lo defiende de los injustos y desmerecidos comentarios sobre la figura plagiaria de la que fue acusado en
+      repetidas ocasiones.
     </p>
     <p className="content justified">
-      También señala que cuando los niños y niñas alemanes se equivocan en un paso de danza, saben que es por obra de
-      las nixies, que adoran la música y el canto, y enredan los pies de los pequeños bailarines.
+      Para Oswaldo Díaz, el gran logro de Pombo no está relacionado con las ideas de sus poesías o con los personajes
+      principales de sus historias –como <i>Simón el bobito</i> o <i>La pobre viejecita</i>–, que fueron tomados de la
+      tradición oral inglesa –de la que Pombo se declara conocedor y abiertamente expone que bebió de esa fuente para
+      crear las historias que muchos niños de Colombia se saben de memoria– sino que su éxito reside en la capacidad de
+      adaptar narraciones de la oralidad inglesa para que en español suenen con mucha naturalidad y no tengan rezagos de
+      una lengua extranjera.
     </p>
   </div>
 );
@@ -22,29 +28,23 @@ export const mainParagraph = (
 export const bottomParagraph = (
   <div className="bottomParagraph">
     <p className="content justified">
-      Díaz Díaz no solo dedica su escrito a los conocidos duendes y hadas europeos, sino que recuerda a los seres
-      fantásticos del Medio Oriente que aparecen en <i>Las mil y una noches</i>, como los jinnis, los afreets y las
-      peris.
+      Por ello, expone que Rafael Pombo no fue un traductor de palabras, sino de temas. Para evidenciar esto, Díaz Díaz
+      nos muestra fragmentos de las historias en inglés y hace un análisis de la manera en que esas ideas son
+      transformadas por Pombo y cómo, en algunos casos, adiciona fragmentos a las historias originales producto de su
+      invención.
     </p>
     <p className="content justified">
-      Y sigue su recorrido por el mundo real y el imaginario, recordando a los animales propios del país de las hadas
-      como los dragones, los grifos y los hipogrifos; y a aquellos que narra la mitología griega: el minotauro, los
-      centauros y unicornios, entre muchos otros.
+      Se destaca también la utilización de ambientes y escenarios que acercan a los lectores colombianos a las
+      narraciones, por lo que a las fábulas y a los poemas se les dota de un contexto nacional.
     </p>
     <p className="content justified">
-      Llama la atención cómo se enlazan en este texto tres hechos: el estreno de la película <i>Peter Pan</i>, en 1953;
-      la lectura del libro <i>The Fairy Dictionary</i> (El diccionario de las hadas) de George M. Richards (McMillan,
-      1940); y un inicio en el que nuestro autor busca crear un vínculo entre la fantasía europea y la colombiana.
-    </p>
-    <p className="content justified">
-      Parece que la pequeña Campanita de la película de <i>Peter Pan</i> despertó la curiosidad en este autor, quien
-      buscó información sobre estos mundos imaginarios e intentó establecer un vínculo entre los duendes locales y los
-      elfos.
-    </p>
-    <p className="content justified">
-      Aunque no intente encontrar otras equivalencias, el texto da buena cuenta de los seres de esos mundos imaginarios
-      en donde reinan "Oberón y Titania, acompañados por el más listo y pícaro de los duendes, Puck; como lo supo muy
-      bien Shakespeare al escribir su <i>Sueño de una noche de verano.</i>
+      Sin duda, este es uno de los mejores textos de Díaz Díaz donde vemos sus habilidades para hacer un análisis
+      literario, su interés por desmenuzar y sus ganas de teorizar la literatura infantil colombiana, justo como se
+      evidencia en su ensayo{" "}
+      <Link className="orange" to="/obra/aspecto-de-la-literatura-infantil?color=yellow">
+        “Aspecto de la literatura infantil”
+      </Link>
+      , publicado en la <i>Revista de las Indias</i>.
     </p>
   </div>
 );

@@ -3,18 +3,22 @@ import React from "react";
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Los pixies, hadas, sirenas, brownies, leprechauns y ogros son la esencia de un corto texto en el que Oswaldo Díaz
-      Díaz describe brevemente cuáles son las características de estos seres fantásticos, cómo lucen, dónde viven,
-      cuáles son sus travesuras favoritas y a qué dedican sus días.
+      Esta es la historia de lo que le ocurrió a un niño llamado Juan Martín, quien vivía en un lugar alejado. Por eso
+      no iba a la escuela, no conocía a otros niños y su única obligación era llevarle el almuerzo a su padre, un
+      leñador. Cuando Juan Martín volvía a casa después de que su padre hubiera almorzado, se sentaba a orillas de una
+      extensa laguna de color verde rodeada de cerros.
     </p>
     <p className="content justified">
-      En este texto dirigido a los niños, advierte que es mejor cuidar de los hermanitos pequeños si se está cerca de la
-      presencia de un troll que, aunque sea amable y complaciente, no puede evitar llevarse consigo lo que le es ajeno,
-      especialmente si se trata de un niño pequeño.
+      Esta no era una laguna cualquiera, era una laguna encantada. “Todos en Colombia sabemos que los indígenas andinos
+      adoraban a sus dioses en las aguas quietas”. “Tal vez por ese antiguo significado religioso que tuvieron las
+      lagunas para los Chibchas, sus descendientes hemos conservado por ellas una como veneración, un cierto respeto y
+      las hemos colmado de hermosas y atractivas leyendas, casi todas relacionadas con tesoros ocultos bajo el agua y
+      con maravillosas fórmulas y extraordinarios procedimientos para libertarlos de su cofre líquido”.
     </p>
     <p className="content justified">
-      También señala que cuando los niños y niñas alemanes se equivocan en un paso de danza, saben que es por obra de
-      las nixies, que adoran la música y el canto, y enredan los pies de los pequeños bailarines.
+      Un día, mientras contemplaba el agua, Juan Martín escuchó hablar a un pato con un ave de largas patas, quienes
+      comentaban que al día siguiente aparecerían en la laguna la Pata de oro y su familia. El niño ya conocía esta
+      historia, pues su padre le había contado acerca de los patos de oro macizo y su valor.
     </p>
   </div>
 );
@@ -22,31 +26,56 @@ export const mainParagraph = (
 export const bottomParagraph = (
   <div className="bottomParagraph">
     <p className="content justified">
-      Díaz Díaz no solo dedica su escrito a los conocidos duendes y hadas europeos, sino que recuerda a los seres
-      fantásticos del Medio Oriente que aparecen en <i>Las mil y una noches</i>, como los jinnis, los afreets y las
-      peris.
+      “Sólo el que lograra enlazarlos entre las cuentas de un rosario, todos a la vez y sin que ninguno quedara fuera
+      del lazo, podría apoderarse de ellos”. Así que Juan planeó atraparlos con el rosario que su madre tenía en el
+      altar.
     </p>
     <p className="content justified">
-      Y sigue su recorrido por el mundo real y el imaginario, recordando a los animales propios del país de las hadas
-      como los dragones, los grifos y los hipogrifos; y a aquellos que narra la mitología griega: el minotauro, los
-      centauros y unicornios, entre muchos otros.
+      La Pata de oro y los paticos aparecieron imponentes en la superficie de la laguna color esmeralda. Pero cuando
+      Juan intentó atraparlos, el más pequeño de los patos quedó por fuera y el resto salieron despavoridos.
     </p>
     <p className="content justified">
-      Llama la atención cómo se enlazan en este texto tres hechos: el estreno de la película <i>Peter Pan</i>, en 1953;
-      la lectura del libro <i>The Fairy Dictionary</i> (El diccionario de las hadas) de George M. Richards (McMillan,
-      1940); y un inicio en el que nuestro autor busca crear un vínculo entre la fantasía europea y la colombiana.
+      Juan Martín no se olvidó de esta leyenda, así que al año siguiente intentó atraparlos de nuevo y lo logró.
+      Apareció a su lado una hermosa joven y siete niños, quienes le contaron que todos eran hermanos y que desde hace
+      cientos de años vivían en el fondo de la laguna, en un palacio de esmeralda, lo que explicaba el hermoso color del
+      agua.
     </p>
     <p className="content justified">
-      Parece que la pequeña Campanita de la película de <i>Peter Pan</i> despertó la curiosidad en este autor, quien
-      buscó información sobre estos mundos imaginarios e intentó establecer un vínculo entre los duendes locales y los
-      elfos.
+      Solo una vez al año salían a ver la luz del sol, pero ya no podrían volver a su palacio, pues Juan Martín había
+      roto el encantamiento. La única manera de revertir este penoso suceso era que Juan se lanzara con ellos a la
+      laguna y que no volviera a su casa nunca más.
     </p>
     <p className="content justified">
-      Aunque no intente encontrar otras equivalencias, el texto da buena cuenta de los seres de esos mundos imaginarios
-      en donde reinan "Oberón y Titania, acompañados por el más listo y pícaro de los duendes, Puck; como lo supo muy
-      bien Shakespeare al escribir su <i>Sueño de una noche de verano.</i>
+      “Ahora, en vez de siete paticos, son ocho los que salen una vez al año de la laguna encantada. El octavo pato es
+      de color de bronce y siempre se queda de último para mirar durante más tiempo las orillas del lago sagrado”.
     </p>
   </div>
 );
 
-export const sections = <div className="sectionsReview"></div>;
+export const sections = (
+  <div className="sectionsReview">
+    <div className="sectionReview">
+      <h3 className="review-title subtitle">Un cuento y varias tradiciones</h3>
+      <p className="content justified">
+        “La laguna encantada” es un cuento sincrético donde se recopilan diferentes tradiciones literarias, como la
+        europea del siglo XVI, la fantástica de los cuentos de hadas y la oralidad indígena de Colombia.
+      </p>
+      <p className="content justified">
+        Oswaldo Díaz Díaz recurrió a las historias de las comunidades que habitaron las tierras andinas colombianas
+        –como los muisca–, se basó en el imaginario europeo sobre América como una tierra maravillosa llena de leyendas
+        –como El dorado–, utilizó elementos fantásticos de los cuentos de hadas –como encantamientos, metamorfosis y
+        sacrificios del héroe–, para finalmente escribir uno de los relatos infantiles más bellos y conmovedores en
+        1939.
+      </p>
+      <p className="content justified">
+        Y concluye: “Si alguno de vosotros quiere verlos, tiene que averiguar el sitio de la laguna y la fecha de la
+        maravillosa aparición. Yo no os lo cuento, porque en tal caso aumentaría indefinidamente el número de paticos de
+        oro y en vuestras familias os echarían mucho de menos”.
+      </p>
+      <p className="content justified">
+        Y tú, ¿ya sabes cuál es la ubicación de la laguna encantada y el día en que aparecen la Pata de oro y los
+        paticos?
+      </p>
+    </div>
+  </div>
+);

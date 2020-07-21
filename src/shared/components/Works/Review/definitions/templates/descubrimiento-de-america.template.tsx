@@ -3,18 +3,18 @@ import React from "react";
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Los pixies, hadas, sirenas, brownies, leprechauns y ogros son la esencia de un corto texto en el que Oswaldo Díaz
-      Díaz describe brevemente cuáles son las características de estos seres fantásticos, cómo lucen, dónde viven,
-      cuáles son sus travesuras favoritas y a qué dedican sus días.
+      Es muy conocida la historia que narra los padecimientos de Cristóbal Colón y su tripulación cuando no hallaban
+      tierra, y quizá algunos sabemos que fue Rodrigo de Triana quien, antes que nadie, gritó “¡Tierra!”. Sin embargo,
+      pocos han reparado en otros personajes que le devolvieron la esperanza a Colón y a su tripulación.
     </p>
     <p className="content justified">
-      En este texto dirigido a los niños, advierte que es mejor cuidar de los hermanitos pequeños si se está cerca de la
-      presencia de un troll que, aunque sea amable y complaciente, no puede evitar llevarse consigo lo que le es ajeno,
-      especialmente si se trata de un niño pequeño.
+      En el cuento “Los animales que ayudaron al almirante”, Oswaldo Díaz Díaz una vez más da protagonismo a esos
+      personajes que no hacen parte de los libros de historia, pero sin quienes los hechos del pasado habrían tenido
+      otro curso.
     </p>
     <p className="content justified">
-      También señala que cuando los niños y niñas alemanes se equivocan en un paso de danza, saben que es por obra de
-      las nixies, que adoran la música y el canto, y enredan los pies de los pequeños bailarines.
+      En esta ocasión son los peces y las aves quienes, con su vuelo y su danza marina, muestran a Colón y a su feroz
+      tripulación que se encuentran cerca a la tierra.
     </p>
   </div>
 );
@@ -22,29 +22,31 @@ export const mainParagraph = (
 export const bottomParagraph = (
   <div className="bottomParagraph">
     <p className="content justified">
-      Díaz Díaz no solo dedica su escrito a los conocidos duendes y hadas europeos, sino que recuerda a los seres
-      fantásticos del Medio Oriente que aparecen en <i>Las mil y una noches</i>, como los jinnis, los afreets y las
-      peris.
+      Un gajao y un rabo de junco son los primeros pájaros que avistan desde las carabelas, “dos aves humildes, que en
+      tierra no les hubieran llamado la atención, pero que en medio del mar tenían un halagüeño significado porque,
+      según creencia de los marineros, tales aves nunca se apartan más de veinticinco leguas de la ribera”. Ese
+      avistamiento fue el 14 de septiembre de 1492.
     </p>
     <p className="content justified">
-      Y sigue su recorrido por el mundo real y el imaginario, recordando a los animales propios del país de las hadas
-      como los dragones, los grifos y los hipogrifos; y a aquellos que narra la mitología griega: el minotauro, los
-      centauros y unicornios, entre muchos otros.
+      Luego viene otra poderosa señal: un cangrejito de agua dulce que lucha para mantenerse vivo en un palo flotante.
+      "Un simple cangrejo de agua dulce, pero que fue recogido y llevado al Almirante, quien lo admiró mucho y lo guardó
+      con aprecio...".
     </p>
     <p className="content justified">
-      Llama la atención cómo se enlazan en este texto tres hechos: el estreno de la película <i>Peter Pan</i>, en 1953;
-      la lectura del libro <i>The Fairy Dictionary</i> (El diccionario de las hadas) de George M. Richards (McMillan,
-      1940); y un inicio en el que nuestro autor busca crear un vínculo entre la fantasía europea y la colombiana.
+      De una manera cronológica, que dista de ser aburrida o esquemática, Oswaldo Díaz Díaz estudia con meticuloso
+      detalle los diarios de abordo del navegante y cuenta sucintamente cómo día a día un nuevo animal se acerca a
+      alguna de las embarcaciones.
     </p>
     <p className="content justified">
-      Parece que la pequeña Campanita de la película de <i>Peter Pan</i> despertó la curiosidad en este autor, quien
-      buscó información sobre estos mundos imaginarios e intentó establecer un vínculo entre los duendes locales y los
-      elfos.
+      Una de las características de este texto es que se mantiene a medio camino entre la realidad histórica y la libre
+      interpretación del autor. Porque, aunque sabemos que Díaz Díaz como buen historiador busca las fuentes primarias,
+      es decir, revisa el diario de Colón, también vemos cómo desde su imaginario recrea el espíritu y el ánimo del
+      almirante y su tripulación.
     </p>
     <p className="content justified">
-      Aunque no intente encontrar otras equivalencias, el texto da buena cuenta de los seres de esos mundos imaginarios
-      en donde reinan "Oberón y Titania, acompañados por el más listo y pícaro de los duendes, Puck; como lo supo muy
-      bien Shakespeare al escribir su <i>Sueño de una noche de verano.</i>
+      Además, notamos cómo otra de las características de la obra de Don Os se evidencia en este relato: la maravilla
+      por las cosas sencillas de la vida, que al final pueden darle un vuelco a la historia. Como ese humilde pajarito
+      que hoy no significa nada, mañana es sinónimo de salvación, de vida, de libertad.
     </p>
   </div>
 );

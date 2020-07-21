@@ -1,20 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      Los pixies, hadas, sirenas, brownies, leprechauns y ogros son la esencia de un corto texto en el que Oswaldo Díaz
-      Díaz describe brevemente cuáles son las características de estos seres fantásticos, cómo lucen, dónde viven,
-      cuáles son sus travesuras favoritas y a qué dedican sus días.
+      El nombre de Hans Christian Andersen no pasa desapercibido para un amante o un estudioso de la literatura
+      infantil, como lo fue Oswaldo Díaz Díaz. Este autor, conocedor de la literatura para niños y su historia, comparte
+      en “Cómo era Hans Christian Anderson” [sic] algunos datos sobre el autor de <i>El soldadito de plomo</i> y{" "}
+      <i>La sirenita.</i>
     </p>
     <p className="content justified">
-      En este texto dirigido a los niños, advierte que es mejor cuidar de los hermanitos pequeños si se está cerca de la
-      presencia de un troll que, aunque sea amable y complaciente, no puede evitar llevarse consigo lo que le es ajeno,
-      especialmente si se trata de un niño pequeño.
+      Díaz Díaz, con gran admiración, empieza resaltando la importancia de Andersen en la literatura infantil y continúa
+      narrando su vida de una manera considerada y nostálgica, especialmente su época infantil, penosa y triste, marcada
+      por momentos de soledad, hambre y demás dificultades, lo que, sin duda, le dieron un cúmulo de experiencias y
+      conocimientos que aplicaría en su vida y en su producción literaria.
     </p>
     <p className="content justified">
-      También señala que cuando los niños y niñas alemanes se equivocan en un paso de danza, saben que es por obra de
-      las nixies, que adoran la música y el canto, y enredan los pies de los pequeños bailarines.
+      A medida que se nos ofrecen datos biográficos y elementos tomados de “El cuento de mi vida” de Andersen, Oswaldo
+      Díaz establece una relación con la obra del autor nacido en Dinamarca en 1805. Su hipótesis es que en muchos de
+      los cuentos del autor danés hay muestras de los duros momentos que vivió en compañía de su familia y en ausencia
+      de ella.
     </p>
   </div>
 );
@@ -22,29 +27,38 @@ export const mainParagraph = (
 export const bottomParagraph = (
   <div className="bottomParagraph">
     <p className="content justified">
-      Díaz Díaz no solo dedica su escrito a los conocidos duendes y hadas europeos, sino que recuerda a los seres
-      fantásticos del Medio Oriente que aparecen en <i>Las mil y una noches</i>, como los jinnis, los afreets y las
-      peris.
+      Un ejemplo de esto, lo encontramos en el siguiente fragmento donde Díaz Díaz plantea: “Si queréis daros cuenta de
+      cómo fue su vida de entonces, sólo tenéis que abrir las páginas de su cuento El Patito Feo; simbolizadas en forma
+      narrativa, traspuestas al mundo maravilloso de la fantasía, están allí las desventuras que padeció y, por fin, el
+      triunfo final de Hans Christian Anderson [sic] en el mundo de la literatura…”.
     </p>
     <p className="content justified">
-      Y sigue su recorrido por el mundo real y el imaginario, recordando a los animales propios del país de las hadas
-      como los dragones, los grifos y los hipogrifos; y a aquellos que narra la mitología griega: el minotauro, los
-      centauros y unicornios, entre muchos otros.
+      Así, Dinamarca y el mundo vieron cómo Andersen pasó a convertirse en un hermoso cisne para la historia de las
+      letras.
     </p>
     <p className="content justified">
-      Llama la atención cómo se enlazan en este texto tres hechos: el estreno de la película <i>Peter Pan</i>, en 1953;
-      la lectura del libro <i>The Fairy Dictionary</i> (El diccionario de las hadas) de George M. Richards (McMillan,
-      1940); y un inicio en el que nuestro autor busca crear un vínculo entre la fantasía europea y la colombiana.
+      En este texto, podemos evidenciar tres rasgos sobresalientes de Oswaldo Díaz Díaz. En primer lugar, su interés en
+      el tema de la infancia, tanto de los niños colombianos como del autor danés. Para Don Os, la infnacia merece un
+      lugar especial y un lenguaje particular. Para entender mejor este aspecto, los invitamos a leer{" "}
+      <Link className="orange" to="/obra/el-pais-de-lilac?color=magenta">
+        “El país de Lilac”.
+      </Link>
     </p>
     <p className="content justified">
-      Parece que la pequeña Campanita de la película de <i>Peter Pan</i> despertó la curiosidad en este autor, quien
-      buscó información sobre estos mundos imaginarios e intentó establecer un vínculo entre los duendes locales y los
-      elfos.
+      En segundo lugar, podemos entender mejor la influencia de Andersen en la literatura del autor colombiano, en
+      cuanto a personajes, situaciones y estructura narrativa. Un ejemplo de ello lo encontramos en el cuento{" "}
+      <Link className="orange" to="/obra/pomarrosa-en-el-parque?color=orange">
+        “Pomarrosa en el parque”.
+      </Link>
     </p>
     <p className="content justified">
-      Aunque no intente encontrar otras equivalencias, el texto da buena cuenta de los seres de esos mundos imaginarios
-      en donde reinan "Oberón y Titania, acompañados por el más listo y pícaro de los duendes, Puck; como lo supo muy
-      bien Shakespeare al escribir su <i>Sueño de una noche de verano.</i>
+      En tercer lugar, vemos su pasión y su habilidad por estudiar a sus colegas y sus creaciones, desde una óptica
+      literaria y humana, como lo hizo también en el caso de Rafael Pombo, al hacer un análisis de sus poemas y fábulas
+      en un texto titulado{" "}
+      <Link className="orange" to="/obra/poesias-infantiles-rafael-pombo?color=orange">
+        “Las poesías infantiles de Rafael Pombo”
+      </Link>{" "}
+      publicado en Hojas de cultura popular colombiana en 1953.
     </p>
   </div>
 );
