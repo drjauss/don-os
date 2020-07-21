@@ -9,10 +9,13 @@ import imgJuegosDeAntano from "../../../../../images/illustrations/juegos-de-ant
 import imgRompeloTodo from "../../../../../images/illustrations/rompelo-todo-min.png";
 import imgMatildeAnaray from "../../../../../images/illustrations/Matilde-min.png";
 import imgElPaisDeLilac from "../../../../../images/illustrations/el-pais-de-lilac-min.png";
-// import imgZuhe from "../../../../../images/illustrations/Zuhe-min.png";
-// import imgPoesiasRafaelPombo from "../../../../../images/illustrations/Las-poesias-de-Rafael-Pombo-min.png";
+import imgZuhe from "../../../../../images/illustrations/Zuhe-min.png";
+import imgPoesiasRafaelPombo from "../../../../../images/illustrations/Las-poesias-de-Rafael-Pombo-min.png";
 import imgRayosYCentellas from "../../../../../images/illustrations/Rayos-min.png";
 import imgCambamBali from "../../../../../images/illustrations/Cambam-bali-min.png";
+import imgNaba from "../../../../../images/illustrations/naba-min.png";
+import imgNinaSieteTrojes from "../../../../../images/illustrations/nina-de-siete-trojes-min.png";
+import imgLaGranCampana from "../../../../../images/illustrations/la-gran-campana-min.png";
 import { blondinettePublishedAt } from "../templates/teatro/blondinette/technical-details";
 import { diccionarioDeLasHadasPublishedAt } from "../templates/no-ficcion/others/diccionario-de-las-hadas/technical-details";
 import { rataplanPublishedAT } from "../templates/cuento/rataplan/technical-details";
@@ -130,7 +133,7 @@ export const workList: Array<Work> = [
       genre: WorkCategory.NO_FICCION,
       reviewedBy: "María Camila Monroy S.",
     },
-    // illustration: imgPoesiasRafaelPombo,
+    illustration: imgPoesiasRafaelPombo,
     category: WorkCategory.NO_FICCION,
     slug: "poesias-infantiles-rafael-pombo",
   },
@@ -197,7 +200,7 @@ export const workList: Array<Work> = [
       genre: WorkCategory.CUENTO,
       reviewedBy: "Zully Pardo",
     },
-    // illustration: imgZuhe,
+    illustration: imgZuhe,
     category: WorkCategory.CUENTO,
     slug: "zuhe",
   },
@@ -353,5 +356,52 @@ export const workList: Array<Work> = [
     illustration: imgRayosYCentellas,
     category: WorkCategory.CUENTO,
     slug: "rayos-y-centellas",
+  },
+  {
+    id: 20,
+    name: "Nabá",
+    title: "Nabá: un Romeo y Julieta indígena",
+    technicalDetails: {
+      title: "Nabá",
+      script: '"Nabá", radioteatro de Oswaldo Díaz Díaz',
+      series: "Leyendas",
+      transmittedBy: "Radiodifusora Nacional de Colombia, 10 de noviembre de 1955",
+      reviewedBy: "Zully Pardo",
+    },
+    category: WorkCategory.RADIOTEATRO,
+    illustration: imgNaba,
+    slug: "naba",
+  },
+  {
+    id: 21,
+    name: "Historia de la gran campana",
+    title: "La gran campana y el amor filial",
+    technicalDetails: {
+      title: "Historia de la gran campana",
+      script: "Oswaldo Díaz Díaz",
+      basedOn: "Una leyenda de oriente",
+      series: "Leyendas",
+      transmittedBy: "Radiodifusora Nacional de Colombia, 1955",
+      reviewedBy: "María Camila Monroy S.",
+    },
+    category: WorkCategory.RADIOTEATRO,
+    illustration: imgLaGranCampana,
+    slug: "la-gran-campana",
+  },
+  {
+    id: 22,
+    name: "La niña de siete trojes",
+    title: "El camino de una niña y sus flores",
+    technicalDetails: {
+      title: "La niña de siete trojes",
+      script: "José Agustín Pulido Téllez",
+      basedOn: '"La niña de siete trojes", cuento de Oswaldo Díaz Díaz',
+      series: "Teatro para niños",
+      transmittedBy: "Radiodifusora Nacional de Colombia, 1954",
+      reviewedBy: "María Camila Monroy S.",
+    },
+    category: WorkCategory.RADIOTEATRO,
+    illustration: imgNinaSieteTrojes,
+    slug: "la-nina-de-siete-trojes",
   },
 ];

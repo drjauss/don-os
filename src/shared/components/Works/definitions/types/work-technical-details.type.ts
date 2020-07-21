@@ -6,4 +6,9 @@ export type WorkTechnicalDetails = {
   genre: string | string[];
   availableAt: string;
   reviewedBy: string;
+  script: string;
+  basedOn: any;
+  series: string;
+  transmittedBy: string;
+  playbackUrl: string;
 };

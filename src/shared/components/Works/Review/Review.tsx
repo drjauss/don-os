@@ -37,6 +37,26 @@ function Review() {
                     Titulo: {tds.title} <br />
                   </span>
                 )}
+                {tds?.script && (
+                  <span className="white">
+                    Libreto: {tds.script} <br />
+                  </span>
+                )}
+                {tds?.basedOn && (
+                  <span className="white">
+                    Historia basada en: {tds.basedOn} <br />
+                  </span>
+                )}
+                {tds?.series && (
+                  <span className="white">
+                    Serie: <i>{tds.series}</i> <br />
+                  </span>
+                )}
+                {tds?.transmittedBy && (
+                  <span className="white">
+                    Transmitido por: {tds.transmittedBy} <br />
+                  </span>
+                )}
                 {tds?.author && (
                   <span className="white">
                     Autor: {tds.author} <br />
@@ -62,12 +82,13 @@ function Review() {
                     Disponible en: {tds.availableAt} <br />
                   </span>
                 )}
-                {tds?.reviewedBy && (
+                {!tds?.script && tds?.reviewedBy && (
                   <span className="white">
                     Reseña por: {tds.reviewedBy} <br />
                   </span>
                 )}
               </p>
+              {tds?.script && tds?.reviewedBy && <p className="white">Reseña por: {tds.reviewedBy}</p>}
             </div>
           </div>
           <div className="pure-u-1 pure-u-md-1-2">{review.mainParagraph}</div>
