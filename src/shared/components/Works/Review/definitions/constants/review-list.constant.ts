@@ -22,6 +22,9 @@ import * as pomarrosaReviewTemplate from "../templates/pomarrosa-en-el-parque.te
 import * as lagunaEncantadaReviewTemplate from "../templates/la-laguna-encantada.template";
 import * as diarioDeUnGorrionReviewTemplate from "../templates/diario-de-un-gorrion.template";
 import * as cambamBaliReviewTemplate from "../templates/cambam-bali.template";
+import * as laSopaDePiedraReviewTemplate from "../templates/la-sopa-de-piedra-review.template";
+import * as losDiosesLoSabenReviewTemplate from "../templates/los-dioses-lo-saben-review.template";
+import * as mowgliReviewTemplate from "../templates/mowgli-review.template";
 
 export const reviews: Reviews = {
   blondinette: {
@@ -89,5 +92,14 @@ export const reviews: Reviews = {
   },
   "la-gran-campana": {
     ...LaGranCampanaReviewTemplate,
+  },
+  "la-sopa-de-piedra": {
+    ...laSopaDePiedraReviewTemplate,
+  },
+  "los-dioses-lo-saben": {
+    ...losDiosesLoSabenReviewTemplate,
+  },
+  mowgli: {
+    ...mowgliReviewTemplate,
   },
 };

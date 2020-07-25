@@ -9,7 +9,6 @@ import SectionTitle from "../../SectionTitle/SectionTitle";
 import { workList } from "../definitions/constants/work-list.constant";
 import { Work } from "../definitions/types/work.type";
 import { reviews } from "./definitions/constants/review-list.constant";
-import imgPlaybackSvg from "../../../../images/play-solid.svg";
 
 function Review() {
   let { item } = useParams();
@@ -92,9 +91,9 @@ function Review() {
                   </span>
                 )}
               </p>
-              {tds?.script && tds?.reviewedBy && <p className="white">Reseña por: {tds.reviewedBy}</p>}
+              {tds?.script && tds?.reviewedBy && <p className="content white">Reseña por: {tds.reviewedBy}</p>}
               {tds?.playbackUrl && (
-                <p className="content white">
+                <p className="content white playback-paragraph">
                   <span className="playback">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                       <path
