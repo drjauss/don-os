@@ -1,4 +1,16 @@
 .Review {
+  .playback {
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px 12px 12px 14px;
+
+    svg {
+      position: relative;
+      top: 6px;
+      left: 1px;
+    }
+  }
+
   .image-responsive img {
     max-width: 50%;
   }

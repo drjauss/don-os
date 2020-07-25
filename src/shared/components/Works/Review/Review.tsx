@@ -9,6 +9,7 @@ import SectionTitle from "../../SectionTitle/SectionTitle";
 import { workList } from "../definitions/constants/work-list.constant";
 import { Work } from "../definitions/types/work.type";
 import { reviews } from "./definitions/constants/review-list.constant";
+import imgPlaybackSvg from "../../../../images/play-solid.svg";
 
 function Review() {
   let { item } = useParams();
@@ -17,6 +18,9 @@ function Review() {
   let work = workList.find((work: Work) => work.slug === item);
   let review = reviews[item as string];
   let tds = work?.technicalDetails;
+
+  const colorArray = ["black", "orange", "light-blue", "green", "yellow", "pink", "magenta", "pale-green"];
+  const colorHexArray = ["#1f2532", "#fc643f", "#8ab9dd", "#06c48c", "#ffd05d", "#ff657d", "#cb1d5b", "#648f85"];
 
   return (
     <div className="Review">
@@ -89,6 +93,28 @@ function Review() {
                 )}
               </p>
               {tds?.script && tds?.reviewedBy && <p className="white">Reseña por: {tds.reviewedBy}</p>}
+              {tds?.playbackUrl && (
+                <p className="content white">
+                  <span className="playback">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path
+                        fill={colorHexArray[colorArray.indexOf(color)]}
+                        d="M20.34 10.758L4.86 3.018c-.425-.196-.92-.165-1.316.084-.395.25-.638.682-.644 1.15v15.473c-.004.48.243.928.652 1.18.409.252.92.273 1.348.053l15.44-7.74c.466-.234.76-.711.76-1.233 0-.522-.294-1-.76-1.233v.006z"
+                      />
+                    </svg>
+                  </span>
+                  &nbsp; Escucha&nbsp;
+                  <a
+                    className="white bold-font underlined"
+                    href={tds.playbackUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    aquí
+                  </a>
+                  &nbsp; la obra completa
+                </p>
+              )}
             </div>
           </div>
           <div className="pure-u-1 pure-u-md-1-2">{review.mainParagraph}</div>

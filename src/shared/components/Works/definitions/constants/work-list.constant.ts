@@ -83,6 +83,8 @@ export const workList: Array<Work> = [
       availableAt:
         "Biblioteca Nacional de Colombia, Biblioteca Pontificia Universidad Javeriana y Biblioteca Luis Ángel Arango ",
       reviewedBy: "María Camila Monroy S.",
+      playbackUrl:
+        "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171851&query_desc=kw%2Cwrdl%3A%20RDNC_RMT_02_000001_01",
     },
     illustration: imgRataplan,
     category: WorkCategory.RADIOTEATRO,
@@ -116,6 +118,7 @@ export const workList: Array<Work> = [
       genre: `${WorkCategory.RADIOTEATRO} y ${WorkCategory.CUENTO}`,
       availableAt: "Biblioteca Nacional de Colombia",
       reviewedBy: "Zully Pardo",
+      playbackUrl: "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171857#html5media",
     },
     illustration: imgTimonel,
     category: WorkCategory.RADIOTEATRO,
@@ -149,6 +152,7 @@ export const workList: Array<Work> = [
       genre: `${WorkCategory.RADIOTEATRO} y ${WorkCategory.CUENTO}`,
       availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango y Biblioteca Universidad Javeriana",
       reviewedBy: "Zully Pardo",
+      playbackUrl: "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171860#html5media",
     },
     featured: true,
     illustration: imgElCargadorDeSal,
@@ -367,6 +371,7 @@ export const workList: Array<Work> = [
       series: "Leyendas",
       transmittedBy: "Radiodifusora Nacional de Colombia, 10 de noviembre de 1955",
       reviewedBy: "Zully Pardo",
+      playbackUrl: "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171861",
     },
     category: WorkCategory.RADIOTEATRO,
     illustration: imgNaba,
@@ -383,6 +388,8 @@ export const workList: Array<Work> = [
       series: "Leyendas",
       transmittedBy: "Radiodifusora Nacional de Colombia, 1955",
       reviewedBy: "María Camila Monroy S.",
+      playbackUrl:
+        "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=49496&query_desc=kw%2Cwrdl%3A%20RDNC_RMT_10_000002_01#html5media",
     },
     category: WorkCategory.RADIOTEATRO,
     illustration: imgLaGranCampana,
@@ -399,6 +406,8 @@ export const workList: Array<Work> = [
       series: "Teatro para niños",
       transmittedBy: "Radiodifusora Nacional de Colombia, 1954",
       reviewedBy: "María Camila Monroy S.",
+      playbackUrl:
+        "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=151898&query_desc=kw%2Cwrdl%3A%20RDNC_RMT_10_000001_01",
     },
     category: WorkCategory.RADIOTEATRO,
     illustration: imgNinaSieteTrojes,
