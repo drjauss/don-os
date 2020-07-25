@@ -1,0 +1,26 @@
+@import "../../../variables";
+
+.Filters {
+  padding: 56px 0 0 0;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+  }
+
+  li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    span {
+      cursor: pointer;
+
+      &.active,
+      &:hover {
+        box-shadow: 0 3px 1px -2px $black;
+      }
+    }
+  }
+}
