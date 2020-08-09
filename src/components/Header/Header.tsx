@@ -8,7 +8,13 @@ function Header() {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className={"Header " + (location.pathname === NavigationRoutesEnum.HOME ? " floating-header" : "")}>
+    <div
+      className={
+        "Header " +
+        (location.pathname === NavigationRoutesEnum.HOME ? " floating-header" : "") +
+        (isActive ? " header-visible slide" : "")
+      }
+    >
       <nav className="desktop">
         {location.pathname !== NavigationRoutesEnum.HOME && (
           <div>
@@ -41,7 +47,7 @@ function Header() {
         {location.pathname !== NavigationRoutesEnum.HOME && (
           <div>
             <Link to="/">
-              <h2 className="title">Don Os vuelve a Lilac</h2>
+              <h2 className={"title " + (isActive ? "white" : "black")}>Don Os vuelve a Lilac</h2>
             </Link>
           </div>
         )}
@@ -58,11 +64,35 @@ function Header() {
             aria-controls="navigation"
           >
             <div className="hamburger-box">
-              <div className="hamburger-inner"></div>
+              <div
+                className={
+                  "hamburger-inner " +
+                  (location.pathname === NavigationRoutesEnum.HOME || isActive ? "white-bg" : "black-bg")
+                }
+              ></div>
             </div>
           </div>
         </div>
       </nav>
+      <div className="vertical-menu">
+        <ul className={(isActive && "menu-visible") || ""}>
+          <li className={"slide " + (location.pathname === NavigationRoutesEnum.HOME ? "active" : "not-home")}>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li className={"slide " + (location.pathname.includes(NavigationRoutesEnum.BIOGRAPHY) ? "active" : "")}>
+            <Link to="/biografia">Biografía</Link>
+          </li>
+          <li className={"slide " + (location.pathname.includes(NavigationRoutesEnum.WORK) ? "active" : "")}>
+            <Link to="/obra">Obra</Link>
+          </li>
+          <li className={"slide " + (location.pathname.includes(NavigationRoutesEnum.CONTACT) ? "active" : "")}>
+            <Link to="/contacto">Contacto</Link>
+          </li>
+          <li className={"slide " + (location.pathname.includes(NavigationRoutesEnum.ABOUT) ? "active" : "")}>
+            <Link to="/acerca-de">Acerca de</Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

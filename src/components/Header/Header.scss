@@ -1,8 +1,38 @@
 @import "../../variables";
 @import "../../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
 
+@keyframes slide {
+  0% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0px);
+  }
+  62% {
+    transform: translateY(30px);
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(0);
+  }
+}
+
 .Header {
   width: 100%;
+
+  &.header-visible {
+    &.slide {
+      background-color: $black;
+      transition: all 0.4s ease-out;
+    }
+  }
+
+  &:not(.header-visible) {
+    transition: all 0.4s ease;
+  }
 
   &.floating-header {
     position: absolute;
@@ -87,19 +117,25 @@
       .hamburger {
         padding: 20px;
       }
-
-      .hamburger-inner,
-      .hamburger-inner::before,
-      .hamburger-inner::after {
-        background-color: white;
-      }
     }
 
-    > div.non-floating-nav {
-      .hamburger-inner,
-      .hamburger-inner::before,
-      .hamburger-inner::after {
+    .hamburger-inner {
+      &.white-bg {
+        background-color: white;
+
+        &::before,
+        &::after {
+          background-color: white;
+        }
+      }
+
+      &.black-bg {
         background-color: $black;
+
+        &::before,
+        &::after {
+          background-color: $black;
+        }
       }
     }
   }
@@ -131,6 +167,50 @@
   @media screen and (min-width: 1120px) {
     nav.mobile {
       display: none;
+    }
+  }
+
+  div.vertical-menu {
+    transition: all 0.4s ease-out;
+
+    ul {
+      display: none;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      transition: all 0.4s ease-out;
+
+      &.menu-visible {
+        display: block;
+        transition: all 0.4s ease;
+      }
+
+      li {
+        display: none;
+        padding: 10px 8%;
+        margin-bottom: 2px;
+        font-family: $poppins;
+        text-align: right;
+        transition: all 0.4s ease-out;
+
+        &:hover {
+          padding-right: 9%;
+          box-shadow: 0 2px 0px -1px white;
+          transition: all 0.4s ease;
+        }
+
+        &.slide {
+          display: block;
+          background-color: $black;
+          animation: slide 0.7s ease-in;
+          transition: all 0.4s ease-out;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
