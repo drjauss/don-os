@@ -7,7 +7,7 @@ function Subscription() {
       <div className="center section-padding">
         <h1 className="title white no-margin">Conoce el país de Lilac</h1>
         <p className="content white s1em">Suscríbete a nuestro boletín mensual</p>
-        <form action="mailto:donosvuelvealilac@gmail.com,zumaservicioseditoriales@gmail.com">
+        <form>
           <input required className="content" type="text" placeholder="Correo electrónico" />
           <div className="white content">
             <label className="checkbox bounce">
