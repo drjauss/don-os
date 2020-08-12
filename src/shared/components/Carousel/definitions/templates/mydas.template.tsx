@@ -8,7 +8,7 @@ export const mydasTitle = (
 
 export const mydasSubtitle = (
   <div>
-    "Farsa de negocios en tres actos". Suplemento de la <i>Revista de las indias</i>, número 11
+    "Farsa de negocios en tres actos". Suplemento de la <i>Revista de las Indias</i>, número 11
   </div>
 );
 

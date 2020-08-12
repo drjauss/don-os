@@ -147,7 +147,7 @@ export const workList: Array<Work> = [
       author: "Oswaldo Díaz Díaz",
       publishedAt: timonelPublishedAt,
       publishingLocation: "Bogotá",
-      genre: `${WorkCategory.RADIOTEATRO} y ${WorkCategory.CUENTO}`,
+      genre: `${WorkCategory.RADIOTEATRO} y cuento`,
       availableAt: "Biblioteca Nacional de Colombia",
       reviewedBy: "Zully Pardo",
       playbackUrl: "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171857#html5media",
@@ -230,7 +230,7 @@ export const workList: Array<Work> = [
       author: "Oswaldo Díaz Díaz",
       publishedAt: cargadorDeSalPublishedAt,
       publishingLocation: "Bogotá",
-      genre: `${WorkCategory.RADIOTEATRO} y ${WorkCategory.CUENTO}`,
+      genre: `${WorkCategory.RADIOTEATRO} y cuento`,
       availableAt: "Biblioteca Nacional de Colombia, Biblioteca Luis Ángel Arango y Biblioteca Universidad Javeriana",
       reviewedBy: "Zully Pardo",
       playbackUrl: "https://catalogo.senalmemoria.co/cgi-bin/koha/opac-detail.pl?biblionumber=171860#html5media",
@@ -264,7 +264,7 @@ export const workList: Array<Work> = [
       author: "Oswaldo Díaz Díaz",
       publishedAt: rataplanPublishedAT,
       publishingLocation: "Bogotá",
-      genre: `${WorkCategory.CUENTO} y ${WorkCategory.RADIOTEATRO}`,
+      genre: `${WorkCategory.CUENTO} y radioteatro`,
       availableAt:
         "Biblioteca Nacional de Colombia, Biblioteca Pontificia Universidad Javeriana y Biblioteca Luis Ángel Arango ",
       reviewedBy: "María Camila Monroy S.",
@@ -359,8 +359,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 19,
-    name: `“Cambam bali, cambam balicó”: el abracadabra de Don Os`,
-    title: "Cambam Bali",
+    name: `“Cambam balí, cambam balicó”: el abracadabra de Don Os`,
+    title: "Cambam Balí",
     technicalDetails: {
       author: "Oswaldo Díaz Díaz",
       publishedAt: cambamBaliPublishedAt,
