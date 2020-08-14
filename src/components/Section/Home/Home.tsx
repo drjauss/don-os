@@ -7,7 +7,7 @@ import Works from "../../../shared/components/Works";
 import Quote from "../../../shared/components/Quote";
 import Subscription from "../../../shared/components/Subscription";
 import Footer from "../../Footer/Footer";
-import donOsImg from "../../../images/don-os-2.png";
+import donOsImg from "../../../images/don-os-2.jpg";
 
 function Home() {
   return (

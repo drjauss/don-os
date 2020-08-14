@@ -25,10 +25,10 @@ function Filters({ active, activeHandler }: FiltersProps) {
 
   return (
     <div className="Filters">
-      <ul className="content bold-font">
+      <ul className="content bold-font pure-g">
         {workCategoryList.map((element: WorkCategory) => {
           return (
-            <li key={element}>
+            <li key={element} className="pure-u-lg-1-5 pure-u-1-3">
               <span onClick={() => handleSetActive(element)} className={activeState === element ? "active" : ""}>
                 {element}
               </span>

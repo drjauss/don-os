@@ -5,14 +5,12 @@
 
   ul {
     list-style-type: none;
-    margin: 0;
-    display: flex;
+    justify-content: center;
   }
 
   li {
-    display: flex;
-    flex: 1;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
 
     span {
       cursor: pointer;

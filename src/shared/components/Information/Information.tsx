@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Information.scss";
-import donOsImage from "../../../images/Don_Os_Home_Bio.png";
+import donOsImage from "../../../images/Don_Os_Home_Bio-min.jpg";
 
 function Information() {
   return (

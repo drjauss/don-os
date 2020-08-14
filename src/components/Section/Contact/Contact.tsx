@@ -5,7 +5,7 @@ import Footer from "../../Footer";
 import Subscription from "../../../shared/components/Subscription";
 import SectionTitle from "../../../shared/components/SectionTitle";
 import imgMaca from "../../../images/investigators/FotosMaca.jpg";
-import imgZu from "../../../images/investigators/FotosZu.jpg";
+import imgZu from "../../../images/investigators/FotosZu.jpeg";
 import Instructor from "./Instructor/Instructor";
 
 function Contact() {
