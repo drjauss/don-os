@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 type WorkBoxProps = {
   color?: ColorsEnum;
   subtitle?: string;
-  title?: string;
+  name?: string;
   link?: string;
   backgroundImg?: string;
 };
 
-function WorkBox({ color, subtitle, title, link, backgroundImg }: WorkBoxProps) {
+function WorkBox({ color, subtitle, name, link, backgroundImg }: WorkBoxProps) {
   const backgroundStyle =
     (backgroundImg && {
       backgroundRepeat: "no-repeat",
@@ -31,7 +31,7 @@ function WorkBox({ color, subtitle, title, link, backgroundImg }: WorkBoxProps) 
       >
         <div className={"box " + color + "-bg media-size"} style={backgroundStyle}>
           {subtitle && <span className="subject">{subtitle}</span>}
-          {title && <h2 className="title with-subject">{title}</h2>}
+          {name && <h2 className="title with-subject">{name}</h2>}
         </div>
       </Link>
     </div>

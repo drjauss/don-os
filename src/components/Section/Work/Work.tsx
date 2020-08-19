@@ -30,7 +30,7 @@ function Work() {
                 <div key={work.slug} className="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
                   <WorkBox
                     color={colorOrder[i % colorOrder.length]}
-                    title={work.title}
+                    name={work.name}
                     subtitle={work.category}
                     link={`/obra/${work.slug}`}
                     backgroundImg={work.illustration}

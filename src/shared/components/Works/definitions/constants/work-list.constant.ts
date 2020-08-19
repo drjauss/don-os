@@ -39,8 +39,8 @@ import { rayosYCentellasPublishedAt } from "../templates/cuento/rayos-y-centella
 export const workList: Array<Work> = [
   {
     id: 9,
-    name: "El país de Lilac, el país de la infancia",
-    title: "El país de Lilac",
+    name: "El país de Lilac",
+    title: "El país de Lilac, el país de la infancia",
     technicalDetails: {
       title: "El país de Lilac",
       author: "Oswaldo Díaz Díaz",
@@ -57,9 +57,10 @@ export const workList: Array<Work> = [
   },
   {
     id: 11,
-    name: "Tipos de hadas y seres fantásticos: un diccionario sin alfabeto",
-    title: "Diccionario de las hadas",
+    name: "Diccionario de las hadas",
+    title: "Tipos de hadas y seres fantásticos: un diccionario sin alfabeto",
     technicalDetails: {
+      title: "Diccionario de las hadas",
       author: "Oswaldo Díaz Díaz",
       publishedAt: diccionarioDeLasHadasPublishedAt,
       publishingLocation: "Bogotá",
@@ -72,10 +73,10 @@ export const workList: Array<Work> = [
   },
   {
     id: 1,
-    name: "La segunda guerra mundial en el país de juguetes",
-    title: "Blondinette",
+    name: "Blondinette",
+    title: "La segunda guerra mundial en el país de juguetes",
     technicalDetails: {
-      title: '"Blondinette"',
+      title: "Blondinette",
       author: "Oswaldo Díaz Díaz",
       publishedAt: blondinettePublishedAt,
       publishingLocation: "Bogotá",
@@ -106,8 +107,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 10,
-    name: "Piratas, canillas y cofres",
-    title: "Rayos y centellas",
+    name: "Rayos y centellas",
+    title: "Piratas, canillas y cofres",
     technicalDetails: {
       title: "Rayos y centellas (cuento)",
       author: "Oswaldo Díaz Díaz",
@@ -124,8 +125,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 12,
-    name: "Hans Christian Andersen: el cisne danés",
-    title: "Cómo era Hans Christian Andersen",
+    name: "Cómo era Hans Christian Andersen",
+    title: "Hans Christian Andersen: el cisne danés",
     technicalDetails: {
       title: "Cómo era Hans Christian Andersen",
       author: "Oswaldo Díaz Díaz",
@@ -140,8 +141,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 3,
-    name: "Timonel: el papagayo que descubrió España",
-    title: "Timonel",
+    name: "Timonel",
+    title: "Timonel: el papagayo que descubrió España",
     technicalDetails: {
       title: "Timonel (radioteatro) y Los papagayos de don Cristóforo (cuento)",
       author: "Oswaldo Díaz Díaz",
@@ -158,8 +159,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 18,
-    name: "La vida en el diario de un gorrión",
-    title: "Diario de un gorrión",
+    name: "Diario de un gorrión",
+    title: "La vida en el diario de un gorrión",
     technicalDetails: {
       title: "Diario de un gorrión",
       author: "Oswaldo Díaz Díaz",
@@ -191,8 +192,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 8,
-    name: "Olor a vellón y romero",
-    title: "Matilde Anaray",
+    name: "Matilde Anaray, la pastorcita de Socha",
+    title: "Olor a vellón y romero",
     technicalDetails: {
       title: "Matilde Anaray, la pastorcita de Socha",
       author: "Oswaldo Díaz Díaz",
@@ -207,8 +208,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 17,
-    name: "Entre la oralidad chibcha y los cuentos de hadas",
-    title: "La laguna encantada",
+    name: "La laguna encantada",
+    title: "Entre la oralidad chibcha y los cuentos de hadas",
     technicalDetails: {
       title: "La laguna encantada",
       author: "Oswaldo Díaz Díaz",
@@ -223,8 +224,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 4,
-    name: "La sal de la vida: un cuento indígena",
-    title: "El cargador de sal",
+    name: "El cargador de sal",
+    title: "La sal de la vida: un cuento indígena",
     technicalDetails: {
       title: "El cargador de sal",
       author: "Oswaldo Díaz Díaz",
@@ -242,9 +243,10 @@ export const workList: Array<Work> = [
   },
   {
     id: 14,
-    name: "El descubrimiento de América para niños: Los animales que ayudaron al almirante",
-    title: "Los animales que ayudaron al almirante",
+    name: "Los animales que ayudaron al almirante",
+    title: "El descubrimiento de América para niños: Los animales que ayudaron al almirante",
     technicalDetails: {
+      title: "Los animales que ayudaron al almirante",
       author: "Oswaldo Díaz Díaz",
       publishedAt: animalesAlmirantePublishedAt,
       publishingLocation: "Bogotá",
@@ -257,8 +259,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 2,
-    name: "Rataplán: un repicar febril",
-    title: "Rataplán",
+    name: "Rataplán",
+    title: "Rataplán: un repicar febril",
     technicalDetails: {
       title: "Rataplán",
       author: "Oswaldo Díaz Díaz",
@@ -277,8 +279,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 16,
-    name: "La fantasía de la indigencia en “Pomarrosa en el parque”",
-    title: "Pomarrosa en el parque",
+    name: "Pomarrosa en el parque",
+    title: "La fantasía de la indigencia en “Pomarrosa en el parque”",
     technicalDetails: {
       title: "Pomarrosa en el parque",
       author: "Oswaldo Díaz Díaz",
@@ -293,7 +295,7 @@ export const workList: Array<Work> = [
   },
   {
     id: 6,
-    name: "Diversiones para niños, los juegos de antaño",
+    name: "Diversiones de antaño",
     title: "Juegos de antaño",
     technicalDetails: {
       title: "Juegos de antaño",
@@ -327,8 +329,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 13,
-    name: "Análisis literario de Rafael Pombo",
-    title: "Las poesías infantiles de Rafael Pombo",
+    name: "Las poesías infantiles de Rafael Pombo",
+    title: "Análisis literario de Rafael Pombo",
     technicalDetails: {
       author: "Oswaldo Díaz Díaz",
       publishedAt: poesiasInfantilesPomboPublishedAt,
@@ -359,9 +361,10 @@ export const workList: Array<Work> = [
   },
   {
     id: 19,
-    name: `“Cambam balí, cambam balicó”: el abracadabra de Don Os`,
-    title: "Cambam Balí",
+    name: "Cambam Balí",
+    title: `“Cambam balí, cambam balicó”: el abracadabra de Don Os`,
     technicalDetails: {
+      title: "Cambam Balí",
       author: "Oswaldo Díaz Díaz",
       publishedAt: cambamBaliPublishedAt,
       publishingLocation: "Bogotá",
@@ -409,8 +412,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 7,
-    name: "Rómpelo-Todo y la magia angelical",
-    title: "Rómpelo-Todo",
+    name: "Rómpelo-Todo",
+    title: "Rómpelo-Todo y la magia angelical",
     technicalDetails: {
       title: "Rómpelo-Todo",
       author: "Oswaldo Díaz Díaz",
@@ -427,8 +430,8 @@ export const workList: Array<Work> = [
   },
   {
     id: 5,
-    name: "Los buenos libros para niños",
-    title: "Aspecto de la literatura infantil",
+    name: "Aspecto de la literatura infantil",
+    title: "Los buenos libros para niños",
     technicalDetails: {
       title: "Aspecto de la literatura infantil",
       author: "Oswaldo Díaz Díaz",
