@@ -110,7 +110,7 @@ export const workList: Array<Work> = [
     name: "Rayos y centellas",
     title: "Piratas, canillas y cofres",
     technicalDetails: {
-      title: "Rayos y centellas (cuento)",
+      title: "Rayos y centellas",
       author: "Oswaldo Díaz Díaz",
       publishedAt: rayosYCentellasPublishedAt,
       publishingLocation: "Bogotá",
@@ -128,7 +128,7 @@ export const workList: Array<Work> = [
     name: "Cómo era Hans Christian Andersen",
     title: "Hans Christian Andersen: el cisne danés",
     technicalDetails: {
-      title: "Cómo era Hans Christian Andersen",
+      title: "Cómo era Hans Christian Anderson [sic]",
       author: "Oswaldo Díaz Díaz",
       publishedAt: comoEraHansPublishedAt,
       genre: WorkCategory.NO_FICCION,
@@ -179,7 +179,7 @@ export const workList: Array<Work> = [
     name: "Zuhé",
     title: "Zuhé, el caracol más ágil de los pascas",
     technicalDetails: {
-      title: "Zuhé, el caracol más ágil de los pascas",
+      title: "Zuhé",
       publishedAt: zuhePublishedAt,
       publishingLocation: "Bogotá",
       availableAt: "Biblioteca Nacional de Colombia y Biblioteca de la Pontificia Universidad Javeriana",
@@ -244,7 +244,7 @@ export const workList: Array<Work> = [
   {
     id: 14,
     name: "Los animales que ayudaron al almirante",
-    title: "El descubrimiento de América para niños: Los animales que ayudaron al almirante",
+    title: "El descubrimiento de América para niños",
     technicalDetails: {
       title: "Los animales que ayudaron al almirante",
       author: "Oswaldo Díaz Díaz",
@@ -296,9 +296,9 @@ export const workList: Array<Work> = [
   {
     id: 6,
     name: "Diversiones de antaño",
-    title: "Juegos de antaño",
+    title: "Diversiones para niños, los juegos de antaño",
     technicalDetails: {
-      title: "Juegos de antaño",
+      title: "Diversiones de antaño",
       author: "Oswaldo Díaz Díaz",
       publishedAt: juegosPublishedAt,
       publishingLocation: "Bogotá",
@@ -332,6 +332,7 @@ export const workList: Array<Work> = [
     name: "Las poesías infantiles de Rafael Pombo",
     title: "Análisis literario de Rafael Pombo",
     technicalDetails: {
+      title: "Las poesías infantiles de Rafael Pombo",
       author: "Oswaldo Díaz Díaz",
       publishedAt: poesiasInfantilesPomboPublishedAt,
       publishingLocation: "Bogotá",
@@ -382,7 +383,7 @@ export const workList: Array<Work> = [
     title: "Nabá: un Romeo y Julieta indígena",
     technicalDetails: {
       title: "Nabá",
-      script: '"Nabá", radioteatro de Oswaldo Díaz Díaz',
+      script: "Oswaldo Díaz Díaz",
       series: "Leyendas",
       transmittedBy: "Radiodifusora Nacional de Colombia, 10 de noviembre de 1955",
       reviewedBy: "Zully Pardo",

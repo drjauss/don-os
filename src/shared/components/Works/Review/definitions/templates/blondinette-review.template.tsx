@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export const mainParagraph = (
   <div className="mainParagraph">
     <p className="content justified">
-      “—Y ésa, ésa es la muñeca de porcelana, <i>Blondinette</i>, la más bella de cuantas muñecas se han conocido. Tez
-      de melocotón, ojos de cielo con estrellitas dentro de ellos. Voz de cristal y risa de fiestas”.
+      “—Y ésa, ésa es la muñeca de porcelana, Blondinette, la más bella de cuantas muñecas se han conocido. Tez de
+      melocotón, ojos de cielo con estrellitas dentro de ellos. Voz de cristal y risa de fiestas”.
     </p>
     <p className="content justified">
-      <i>Blondinette</i> vivía en un país de juguete, acompañada por su padre Juan Lanas, muñeco de aserrín; su hermana
+      Blondinette vivía en un país de juguete, acompañada por su padre Juan Lanas, muñeco de aserrín; su hermana
       Pocoseso y su amiga Métome-en-todo, muñecas de pasta y de trapo, respectivamente; y su buen amigo Blondel, un
       payaso con corazón de caja de música.
     </p>
@@ -33,20 +33,20 @@ export const bottomParagraph = (
       le ordenó a Juan Lanas que lo desterrara, argumentando la falta de espacio en el lugar.
     </p>
     <p className="content justified">
-      Sin embargo, Juan Lanas, <i>Blondinette</i> y Blondel estuvieron en contra de tal idea: “Nunca me he quejado de la
-      falta de espacio aquí. Antes bien, noto que hay demasiado sin ocupar. Pensad en lo hermoso que sería esto lleno de
+      Sin embargo, Juan Lanas, Blondinette y Blondel estuvieron en contra de tal idea: “Nunca me he quejado de la falta
+      de espacio aquí. Antes bien, noto que hay demasiado sin ocupar. Pensad en lo hermoso que sería esto lleno de
       muñecos. Muñecos de pasta, de porcelana, de aserrín, de celuloide, de goma, de palo, de cristal”, dice Juan Lanas.
     </p>
     <p className="content justified">
       Como Lisardo no fue expulsado del país de juguete, Lansquenete planeó una emboscada en contra de Juan Lanas y le
       ordenó a sus soldados que lo tildaran de loco y lo atacaran. Mientras tanto, Lisardo estaba pensando en volver al
-      bosque y llevar a <i>Blondinette</i> con él y vivir allí por siempre a su lado, felices y en paz.
+      bosque y llevar a Blondinette con él y vivir allí por siempre a su lado, felices y en paz.
     </p>
     <p className="content justified">
-      De repente, en medio del ataque a Juan Lanas, se desató un incendio. Lisardo tomó a <i>Blondinette</i> en uno de
-      sus brazos y en el otro, a Blondel para escapar por la ventana. Qué sorpresa al enterarnos del destino final de
-      <i>Blondinette</i> y Blondel: la muñeca de porcelana quebrada cruelmente por el golpe de la caída y el corazón de
-      música del payaso roto por el impacto.
+      De repente, en medio del ataque a Juan Lanas, se desató un incendio. Lisardo tomó a Blondinette en uno de sus
+      brazos y en el otro, a Blondel para escapar por la ventana. Qué sorpresa al enterarnos del destino final de
+      Blondinette y Blondel: la muñeca de porcelana quebrada cruelmente por el golpe de la caída y el corazón de música
+      del payaso roto por el impacto.
     </p>
   </div>
 );

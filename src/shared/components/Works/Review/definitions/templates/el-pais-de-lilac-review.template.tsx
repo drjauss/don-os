@@ -38,8 +38,8 @@ export const sections = (
       <p className="content justified">
         Lilac es entonces una especie de reino de la infancia, donde los niños viven felices, en libertad, donde los
         letreros en las vitrinas son “Ver y tocar” o “Ver y probar”. Es un país soñado para los niños, que nos recuerda
-        al País de Nunca Jamás de Peter Pan, no solo por la ausencia de adultos, sino por las amplias posibilidades de
-        diversión y de vida que tienen los más jóvenes.
+        al País de Nunca Jamás de <i>Peter Pan</i>, no solo por la ausencia de adultos, sino por las amplias
+        posibilidades de diversión y de vida que tienen los más jóvenes.
       </p>
       <p className="content justified">
         Además, en Lilac, los niños aman la escuela, ya que “Allí un día los chiquillos quieren conocer algo sobre las
@@ -62,7 +62,7 @@ export const sections = (
       <h3 className="review-title subtitle">Lilac: el lugar de Don Os</h3>
       <p className="content justified">
         Lilac es un lugar insignia para hablar de Oswaldo Díaz Díaz. Aparece en este relato, que fue publicado por
-        primera vez en una antología de cuentos que lleva el mismo nombre. Posteriormente apareció{" "}
+        primera vez en una antología de cuentos que lleva el mismo nombre. Posteriormente apareció en{" "}
         <i>Retorno a Lilac</i> y <i>Otra vez en Lilac</i>.
       </p>
       <p className="content justified">

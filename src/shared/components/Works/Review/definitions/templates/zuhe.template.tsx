@@ -51,7 +51,7 @@ export const sections = (
       <p className="content justified">
         Nos muestra las rencillas entre españoles, las trampas, los acercamientos pacíficos a los pueblos nativos y el
         posterior sometimiento de estos. Y narra con detalle la historia de Lázaro Font, su amor con la joven muisca
-        Suamena (Zoratama, figura en otras fuentes) y la manera como Zuhé decide ayudarlos.
+        Suamena (Zoratama, figura en otras fuentes) y la manera como <i>Zuhé</i> decide ayudarlos.
       </p>
     </div>
     <div className="sectionReview">
