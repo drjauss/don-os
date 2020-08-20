@@ -1,11 +1,11 @@
-# don-os
+# Don Os Static web app project
 
-Proyecto sitio web Don Os para la Biblioteca Nacional
+Static web site to share and publish reviews and info about Oswaldo Diaz Diaz and his work.
 
-Frameworks y dependencias
+## Frameworks and dependencies
 
 - ReactJS
-- Pure.css grids
+- Pure.css grid and responsive layout
 - Webpack
 - SASS
 - TypeScript
