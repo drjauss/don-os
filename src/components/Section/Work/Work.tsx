@@ -9,17 +9,32 @@ import Quote from "../../../shared/components/Quote";
 import { workList } from "../../../shared/components/Works/definitions/constants/work-list.constant";
 import { colorOrder } from "../../../shared/components/Works/definitions/constants/color-order.constant";
 import Filters from "../../../shared/components/Filters/Filters";
-import { WorkCategory } from "../../../shared/components/Works/definitions/enums/work-category.enum";
+import {
+  WorkCategory,
+  WorkCategoryName,
+  CategoryToName,
+} from "../../../shared/components/Works/definitions/enums/work-category.enum";
+import { useLocation, useHistory } from "react-router-dom";
 
 function Work() {
-  const [active, setActive] = useState(WorkCategory.TODOS);
+  let history = useHistory();
+  let { search } = useLocation();
+  let activeFilter = (search.split("=")[1] as WorkCategoryName) || WorkCategoryName.TODOS;
+  const [active, setActive] = useState(WorkCategory[activeFilter]);
+
+  function triggerSetActive(newValue: WorkCategory) {
+    history.push({
+      search: `?filter=${CategoryToName[newValue]}`,
+    });
+    setActive(newValue);
+  }
 
   return (
     <div className="Work">
       <Header />
       <div className="section-padding">
         <SectionTitle title="Más allá del país de Lilac" subtitle="Obra" />
-        <Filters active={active} activeHandler={setActive} />
+        <Filters active={active} activeHandler={triggerSetActive} />
       </div>
       <div className="pure-g">
         <div className="mid-section-padding">

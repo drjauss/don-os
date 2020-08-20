@@ -68,7 +68,7 @@ export const sections = (
       <p className="content justified">
         Y es que hay que mencionar que Oswaldo Díaz Díaz fue un gran historiador por vocación (no en vano escribió dos
         de los volúmenes de la <i>Historia extensa de Colombia</i>), pero también se consideró a sí mismo escritor de
-        literatura infantil. En un cuento como Zuhé, este autor equilibra esas dos facetas.
+        literatura infantil. En un cuento como <i>Zuhé</i>, este autor equilibra esas dos facetas.
       </p>
       <p className="content justified">
         Pues no hay que dudar que, para llegar al punto de redactar este cuento, Don Os visitó muchos archivos, consultó
