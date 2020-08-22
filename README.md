@@ -1,4 +1,4 @@
-# Don Os Static web app project
+# Static web app project using ReactJS with TypeScript 
 
 Static web site to share and publish reviews and info about Oswaldo Diaz Diaz and his work.
 
